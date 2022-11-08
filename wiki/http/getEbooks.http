@@ -1,2 +1,11 @@
 GET http://localhost:8080/getEbooks
 Accept: application/json
+
+###
+
+GET http://localhost:8080/getEbookByName?name=vue
+Accept: application/json
+
+###
+GET http://localhost:8080/getEbookByEbookReq?name=vue
+Accept: application/json
