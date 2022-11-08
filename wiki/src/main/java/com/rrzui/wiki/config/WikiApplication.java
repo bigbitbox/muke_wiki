@@ -1,5 +1,6 @@
 package com.rrzui.wiki.config;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -7,6 +8,8 @@ import org.springframework.core.env.Environment;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+@MapperScan("com.rrzui.wiki.mapper")
 @ComponentScan("com.rrzui.wiki")
 @SpringBootApplication
 public class WikiApplication
