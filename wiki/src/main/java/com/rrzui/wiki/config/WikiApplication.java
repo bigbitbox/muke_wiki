@@ -1,4 +1,4 @@
-package com.rrzui.wiki;
+package com.rrzui.wiki.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.core.env.Environment;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-@ComponentScan("com.rrzui")
+@ComponentScan("com.rrzui.wiki")
 @SpringBootApplication
 public class WikiApplication
 {

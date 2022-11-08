@@ -63,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.rrzui.wiki.WikiApplication</mainClass>
+                    <mainClass>com.rrzui.wiki.config.WikiApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
