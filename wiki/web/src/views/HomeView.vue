@@ -111,7 +111,8 @@ export default defineComponent({
 
     onMounted(() => {
       axios
-        .get("http://localhost:8080/getEbooks")
+        // .get("http://localhost:8080/getEbooks")
+        .get(process.env.VUE_APP_SERVER+"/getEbooks")
         .then((resp) => {
           console.log(resp);
           const data = resp.data.content;
