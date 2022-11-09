@@ -2,10 +2,7 @@
   <div class="home">
     <a-layout>
       <a-layout-sider width="200" style="background: #fff">
-        <a-menu
-            mode="inline"
-            :style="{ height: '100%', borderRight: 0 }"
-        >
+        <a-menu mode="inline" :style="{ height: '100%', borderRight: 0 }">
           <a-sub-menu key="sub1">
             <template #title>
               <span>
@@ -45,25 +42,110 @@
         </a-menu>
       </a-layout-sider>
       <a-layout-content
-          :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
+        :style="{
+          background: '#fff',
+          padding: '24px',
+          margin: 0,
+          minHeight: '280px',
+        }"
       >
-        Content
+        <!-- <pre>{{ ebooks }}</pre>
+        <br />
+        <br />
+        <pre>{{ ebooks2 }}</pre> -->
+
+        <a-list
+          item-layout="vertical"
+          size="large"
+          :grid="{gutter:20,column:3}"
+          :pagination="pagination"
+          :data-source="ebooks"
+        >
+          <template #renderItem="{ item }">
+            <a-list-item key="item.name">
+              <template #actions>
+                <span v-for="{ type, text } in actions" :key="type">
+                  <component :is="type" style="margin-right: 8px" />
+                  {{ text }}
+                </span>
+              </template>
+
+              <a-list-item-meta :description="item.description">
+                <template #title>
+                  <a :href="item.href">{{ item.name }}</a>
+                </template>
+                <template #avatar><a-avatar :src="item.cover" /></template>
+              </a-list-item-meta>
+            </a-list-item>
+          </template>
+        </a-list>
       </a-layout-content>
     </a-layout>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import axios from 'axios';
+import { defineComponent, onMounted, ref, reactive, toRef } from "vue";
+import axios from "axios";
 
 export default defineComponent({
-  name: 'HomeView',
-  setup(){
-    console.log('setup');
-    axios.get('http://localhost:8080/getEbookByEbookReq?name=vue').then((resp)=>{
-      console.log(resp);
-    })
-  }
+  name: "HomeView",
+  setup() {
+    console.log("setup");
+
+    const ebooks = ref();
+    const ebooks2 = reactive({ books: [] });
+
+    const listData: any = [];
+    for (let i = 0; i < 23; i++) {
+      listData.push({
+        href: "https://www.antdv.com/",
+        title: `ant design vue part ${i}`,
+        avatar: "https://joeschmoe.io/api/v1/random",
+        description:
+          "Ant Design, a design language for background applications, is refined by Ant UED Team.",
+        content:
+          "We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.",
+      });
+    }
+
+    onMounted(() => {
+      axios
+        .get("http://localhost:8080/getEbooks")
+        .then((resp) => {
+          console.log(resp);
+          const data = resp.data.content;
+          ebooks.value = data;
+          ebooks2.books = data;
+        });
+    });
+    return {
+      ebooks,
+      ebooks2: toRef(ebooks2, "books"),
+      listData,
+      pagination: {
+        onChange: (page: any) => {
+          console.log(page);
+        },
+        pageSize: 3,
+      },
+      actions: [
+        { type: "StarOutlined", text: "156" },
+        { type: "LikeOutlined", text: "156" },
+        { type: "MessageOutlined", text: "2" },
+      ],
+    };
+  },
 });
 </script>
+
+
+<style scoped>
+.ant-avatar {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 8%;
+  margin: 5px 0;
+}
+</style>
