@@ -220,3 +220,41 @@
 2022-11-10 10:45:07.464 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
 2022-11-10 10:45:07.464 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
 2022-11-10 10:45:07.481 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：17 ms -------------
+2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-10 11:10:34.307 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
+2022-11-10 11:10:34.308 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
+2022-11-10 11:10:34.309 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：26 ms -------------
+2022-11-10 11:10:38.640 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:10:38.641 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-10 11:10:38.641 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-10 11:10:38.648 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
+2022-11-10 11:10:57.552 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:10:57.553 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-10 11:10:57.553 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-10 11:10:57.562 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
+2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-10 11:11:09.202 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
+2022-11-10 11:11:09.203 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
+2022-11-10 11:11:09.204 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
+2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
+2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
+2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
+2022-11-10 11:17:43.962 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:17:43.962 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-10 11:17:43.963 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-10 11:17:43.969 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
+2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
+2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
+2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
+2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
+2022-11-10 11:21:50.909 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-10 11:21:50.919 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
