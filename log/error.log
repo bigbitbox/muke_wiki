@@ -1,3 +1,6 @@
 2022-11-10 09:17:39.819 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
 2022-11-10 09:46:45.697 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
 2022-11-10 10:45:03.104 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
+2022-11-10 14:15:27.616 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
+2022-11-10 14:25:35.424 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
+2022-11-10 14:30:33.240 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m245797257268563968[0;39m testWhileIdle is true, validationQuery not set
