@@ -89,13 +89,19 @@ export default defineComponent({
     * */
     const  handleQuery = (params:any)=>{
       loading.value = true;
-      axios.get(process.env.VUE_APP_SERVER+"/getEbookByEbookReq",params).then((resp)=>{
+      axios.get("/getEbookListByPage",{
+        params:{
+          page:params.page,
+          size:params.size
+        }
+      }).then((resp)=>{
         loading.value = false;
         const  data = resp.data;
-        ebooks.value = data.content;
+        ebooks.value = data.content.list;
 
         //重置分页按钮
         pagination.value.current = params.page;
+        pagination.value.total = data.content.total;
       });
     };
     /*
@@ -110,7 +116,10 @@ export default defineComponent({
     };
 
     onMounted(()=>{
-      handleQuery({});
+      handleQuery({
+        page:1,
+        size:pagination.value.pageSize
+      })
     })
     return {
       ebooks,
