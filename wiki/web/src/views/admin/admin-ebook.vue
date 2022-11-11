@@ -30,13 +30,14 @@
         <template v-slot:action="{ text, record }">
           <a-space size="small">
             <!-- <router-link :to="'/admin/doc?ebookId=' + record.id"> -->
-              <a-button type="primary" @click="edit(record)"> 编辑 </a-button>
+            <a-button type="primary" @click="edit(record)"> 编辑 </a-button>
             <!-- </router-link> -->
             <a-popconfirm
-            title="删除后不可恢复，确定删除？"
-            ok-text="是"
-            cancel-text="否"
-            @confirm="handleDelete(record.id)">
+              title="删除后不可恢复，确定删除？"
+              ok-text="是"
+              cancel-text="否"
+              @confirm="handleDelete(record.id)"
+            >
               <a-button type="danger"> 删除 </a-button>
             </a-popconfirm>
           </a-space>
@@ -58,12 +59,19 @@
       <a-form-item label="名称">
         <a-input v-model:value="ebook.name" />
       </a-form-item>
-      <a-form-item label="分类一">
+      <a-form-item label="分类">
+        <a-cascader
+          v-model:value="categoryIds"
+          :field-names="{ label: 'name', value: 'id', children: 'children' }"
+          :options="level1"
+        />
+      </a-form-item>
+      <!-- <a-form-item label="分类一">
         <a-input v-model:value="ebook.category1_id" />
       </a-form-item>
       <a-form-item label="分类二">
         <a-input v-model:value="ebook.category2_id" />
-      </a-form-item>
+      </a-form-item> -->
       <a-form-item label="描述">
         <a-input v-model:value="ebook.description" type="textarea" />
       </a-form-item>
@@ -73,6 +81,8 @@
 <script lang="ts">
 import { defineComponent, onMounted, ref } from "vue";
 import axios from "axios";
+import { Tool } from "@/utils/tool";
+import { message } from "ant-design-vue";
 
 export default defineComponent({
   name: "AdminEbook",
@@ -159,55 +169,85 @@ export default defineComponent({
     };
 
     // -------- 表单 ---------
-    const ebook = ref({});
+    const ebook = ref();
+    const categoryIds = ref();
     const modalVisible = ref(false);
     const modalLoading = ref(false);
     // 删除方法
-    const handleDelete = (id:number)=>{
-      axios.get('/ebook/remove',{params:{id:id}}).then((resp)=>{
-        if (resp.data.success){
+    const handleDelete = (id: number) => {
+      axios.get("/ebook/remove", { params: { id: id } }).then((resp) => {
+        if (resp.data.success) {
           handleQuery({
-            page:pagination.value.current,
-            size:pagination.value.pageSize
-          })
+            page: pagination.value.current,
+            size: pagination.value.pageSize,
+          });
         }
-      })
-    }
+      });
+    };
 
     const handleModalOk = () => {
       modalLoading.value = true;
+      ebook.value.category1_id = categoryIds.value[0];
+      ebook.value.category2_id = categoryIds.value[1];
       console.log(ebook.value);
-      axios.post("/ebook/save",ebook.value).then(
-        (resp)=>{
-          const data = resp.data;
-          if (data.success){
-            modalVisible.value = false;
-            modalLoading.value = false;
-            //重新加载列表
-            handleQuery({
-              page:pagination.value.current,
-              size:pagination.value.pageSize
-            })
-          }
+      axios.post("/ebook/save", ebook.value).then((resp) => {
+        const data = resp.data;
+        if (data.success) {
+          modalVisible.value = false;
+          modalLoading.value = false;
+          //重新加载列表
+          handleQuery({
+            page: pagination.value.current,
+            size: pagination.value.pageSize,
+          });
         }
-      )
+      });
     };
+
+    //  分类相关 ————————————————
+    const level1 = ref();
+    // 查询所有分类
+    const handleQueryCategory = () => {
+      loading.value = true;
+      axios.get("/category/allList").then((resp) => {
+        loading.value = false;
+        const data = resp.data;
+        // const ebook = resp.data;
+        if (data.success) {
+          console.log(data.content);
+          console.log("origin array", data.content);
+
+          level1.value = [];
+          level1.value = Tool.array2Tree(data.content, 0);
+          console.log("树形结构", level1);
+        } else {
+          message.error(data.message);
+        }
+
+        // categorys.value = data.content;
+      });
+    };
+
     //编辑
-    const edit = (record:any) => {
+    const edit = (record: any) => {
       ebook.value = record;
       modalVisible.value = true;
+      categoryIds.value = [ebook.value.category1_id, ebook.value.category2_id];
     };
     //新增
-    const add = ()=>{
+    const add = () => {
       ebook.value = {};
       modalVisible.value = true;
-    }
+    };
 
     onMounted(() => {
       handleQuery({
         page: 1,
         size: pagination.value.pageSize,
       });
+      handleQueryCategory();
+      console.log("this is level1",level1);
+      
     });
     return {
       ebooks,
@@ -216,14 +256,16 @@ export default defineComponent({
       loading,
       handleTableChange,
 
-
       add,
       edit,
       modalLoading,
       modalVisible,
       handleModalOk,
       handleDelete,
-      ebook
+      ebook,
+
+      categoryIds,
+      level1,
     };
   },
 });
