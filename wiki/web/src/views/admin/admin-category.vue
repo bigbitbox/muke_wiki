@@ -15,9 +15,8 @@
         :columns="columns"
         :row-key="(record) => record.id"
         :data-source="categorys"
-        :pagination="pagination"
+        :pagination="false"
         :loading="loading"
-        @change="handleTableChange"
       >
         <template #cover="{ text: cover }">
           <img
@@ -110,31 +109,12 @@ export default defineComponent({
     const handleQuery = (params: any) => {
       loading.value = true;
       axios
-        .get("/category/getCategoryListByPage", {
-          params: {
-            page: params.page,
-            size: params.size,
-          },
-        })
+        .get("/category/allList")
         .then((resp) => {
           loading.value = false;
           const data = resp.data;
-          categorys.value = data.content.list;
-
-          //重置分页按钮
-          pagination.value.current = params.page;
-          pagination.value.total = data.content.total;
+          categorys.value = data.content;
         });
-    };
-    /*
-     * 表格点击页码时触发
-     * */
-    const handleTableChange = (pagination: any) => {
-      console.log("看看自带分页的参数都有些啥：" + pagination);
-      handleQuery({
-        page: pagination.current,
-        size: pagination.pageSize,
-      });
     };
 
     // -------- 表单 ---------
@@ -193,7 +173,6 @@ export default defineComponent({
       pagination,
       columns,
       loading,
-      handleTableChange,
 
 
       add,
