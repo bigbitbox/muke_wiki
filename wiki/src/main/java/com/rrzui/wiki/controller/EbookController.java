@@ -3,7 +3,8 @@ package com.rrzui.wiki.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rrzui.wiki.entity.Ebook;
-import com.rrzui.wiki.req.EbookReq;
+import com.rrzui.wiki.req.EbookQueryReq;
+import com.rrzui.wiki.req.EbookSaveReq;
 import com.rrzui.wiki.req.PageReq;
 import com.rrzui.wiki.resp.CommonResp;
 import com.rrzui.wiki.resp.EbookResp;
@@ -14,13 +15,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ObjectUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/ebook")
 public class EbookController {
 
     @Autowired
@@ -47,9 +47,9 @@ public class EbookController {
     }
 
     @GetMapping("/getEbookByName")
-    public CommonResp getEbookByName(EbookReq ebookReq){
+    public CommonResp getEbookByName(EbookQueryReq ebookQueryReq){
         QueryWrapper<Ebook> wrapper = new QueryWrapper<>();
-        wrapper.like("name",ebookReq.getName());
+        wrapper.like("name", ebookQueryReq.getName());
         List<Ebook> list = ebookService.list(wrapper);
         CommonResp<List<Ebook>> resp = new CommonResp<>();
         resp.setContent(list);
@@ -57,12 +57,12 @@ public class EbookController {
     }
 
     @GetMapping("/getEbookByEbookReq")
-    public CommonResp getEbookByEbookReq(EbookReq ebookReq){
+    public CommonResp getEbookByEbookReq(EbookQueryReq ebookQueryReq){
 
         List<Ebook> list;
-        if (!ObjectUtils.isEmpty(ebookReq.getName())) {
+        if (!ObjectUtils.isEmpty(ebookQueryReq.getName())) {
             QueryWrapper<Ebook> wrapper = new QueryWrapper<>();
-            wrapper.like("name",ebookReq.getName());
+            wrapper.like("name", ebookQueryReq.getName());
             list = ebookService.list(wrapper);
         }else {
             list = ebookService.list();
@@ -96,6 +96,23 @@ public class EbookController {
 
         CommonResp<PageResp<EbookResp>> resp = new CommonResp<>();
         resp.setContent(respPage);
+        return resp;
+    }
+
+    @PostMapping("/save")
+    public CommonResp save(@RequestBody EbookSaveReq req){
+        Ebook ebook = CopyUtil.copy(req, Ebook.class);
+        //会根据是否有id判断   修改（有id）  新增（无id）
+        ebookService.saveOrUpdate(ebook);
+
+        CommonResp resp = new CommonResp<>();
+        return resp;
+    }
+
+    @GetMapping("/remove")
+    public CommonResp remove(int id){
+        ebookService.removeById(id);
+        CommonResp<Object> resp = new CommonResp<>();
         return resp;
     }
 }

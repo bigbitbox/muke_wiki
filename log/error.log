@@ -1,6 +1,16 @@
-2022-11-10 09:17:39.819 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 09:46:45.697 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 10:45:03.104 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:15:27.616 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:25:35.424 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:30:33.240 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m245797257268563968[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 09:10:26.400 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-11 09:12:02.332 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246079489384255488[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:16:41.276 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246095759324352512[0;39m testWhileIdle is true, validationQuery not set

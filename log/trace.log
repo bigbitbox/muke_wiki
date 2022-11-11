@@ -1,420 +1,335 @@
-2022-11-10 09:04:15.626 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:04:15.634 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:04:15.698 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 09:04:15.698 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 09:04:16.538 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:04:16.545 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:04:16.546 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:04:16.546 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:04:16.609 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:04:16.610 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 911 ms
-2022-11-10 09:04:17.669 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:04:17.889 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:04:17.908 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:04:17.926 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:04:17.934 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 2.802 seconds (JVM running for 3.833)
-2022-11-10 09:04:17.936 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:04:17.936 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:06:23.028 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:06:23.164 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:06:23.165 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:06:23.384 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:06:23.385 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:06:23.385 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:06:23.385 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:06:23.398 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:06:23.398 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 230 ms
-2022-11-10 09:06:23.794 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:06:23.829 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:06:23.839 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:06:23.842 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:06:23.845 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.712 seconds (JVM running for 129.745)
-2022-11-10 09:06:23.846 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-11-10 09:06:23.847 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:06:23.847 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:06:25.631 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:06:25.727 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:06:25.727 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:06:25.853 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:06:25.853 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:06:25.854 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:06:25.854 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:06:25.871 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:06:25.871 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 142 ms
-2022-11-10 09:06:26.242 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:06:26.277 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:06:26.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:06:26.288 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:06:26.290 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.585 seconds (JVM running for 132.189)
-2022-11-10 09:06:26.291 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-11-10 09:06:26.291 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:06:26.292 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:17:39.711 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 09:17:39.711 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 09:17:39.719 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
-2022-11-10 09:17:39.819 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 09:17:39.826 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m                  [0;39m {dataSource-1} inited
-2022-11-10 09:42:38.986 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:42:38.988 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 09:42:39.116 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:42:39.116 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:42:39.269 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:42:39.269 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:42:39.269 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:42:39.271 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:42:39.282 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:42:39.282 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 164 ms
-2022-11-10 09:42:39.651 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:42:39.682 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:42:39.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:42:39.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:42:39.694 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.603 seconds (JVM running for 2305.593)
-2022-11-10 09:42:39.695 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-11-10 09:42:39.696 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:42:39.696 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:43:26.158 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:43:26.255 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:43:26.255 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:43:26.401 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:43:26.401 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:43:26.401 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:43:26.401 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:43:26.412 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:43:26.413 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 156 ms
-2022-11-10 09:43:26.794 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:43:26.825 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:43:26.833 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:43:26.835 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:43:26.838 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.605 seconds (JVM running for 2352.737)
-2022-11-10 09:43:26.838 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-11-10 09:43:26.839 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:43:26.839 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:44:58.078 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:44:58.167 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 18600 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:44:58.167 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:44:58.320 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:44:58.321 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:44:58.321 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:44:58.321 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:44:58.332 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:44:58.332 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
-2022-11-10 09:44:58.690 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:44:58.720 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:44:58.727 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:44:58.729 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:44:58.731 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.586 seconds (JVM running for 2444.631)
-2022-11-10 09:44:58.732 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2022-11-10 09:44:58.732 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:44:58.732 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:45:05.847 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:45:09.579 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 15268 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 09:45:09.580 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 09:45:09.650 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 09:45:09.650 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 09:45:10.772 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 09:45:10.786 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:45:10.786 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 09:45:10.787 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 09:45:10.866 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 09:45:10.866 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1215 ms
-2022-11-10 09:45:12.212 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 09:45:12.396 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 09:45:12.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 09:45:12.443 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 09:45:12.453 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.52 seconds (JVM running for 5.706)
-2022-11-10 09:45:12.456 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 09:45:12.456 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 09:46:45.449 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 09:46:45.450 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 09:46:45.455 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
-2022-11-10 09:46:45.697 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 09:46:45.706 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m                  [0;39m {dataSource-1} inited
-2022-11-10 09:46:45.909 INFO  com.rrzui.wiki.service.EbookService               :86   [32m                  [0;39m 总行数：5
-2022-11-10 09:46:45.909 INFO  com.rrzui.wiki.service.EbookService               :87   [32m                  [0;39m 总页数：2
-2022-11-10 10:02:54.848 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.rrzui.wiki.mapper]' package. Please check your configuration.
-2022-11-10 10:08:39.892 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:08:39.893 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:08:39.905 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:08:39.906 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:09:42.704 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:09:42.704 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:09:42.716 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:09:42.718 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:10:14.488 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:10:14.488 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:10:15.061 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:10:15.062 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:12:36.332 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:12:36.333 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:12:36.823 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:12:36.823 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:22:52.733 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:22:52.734 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：0
-2022-11-10 10:22:55.428 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:22:55.429 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：0
-2022-11-10 10:22:59.688 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:22:59.689 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：0
-2022-11-10 10:25:12.653 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:25:12.654 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:25:15.125 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:25:15.126 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:25:15.811 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:25:15.812 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:25:16.302 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:25:16.302 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:25:17.869 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:25:17.869 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:27:01.064 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:27:01.064 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:33:42.563 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:33:42.564 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:33:47.929 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:33:47.929 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:33:50.494 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:33:50.496 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:33:55.927 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:33:55.928 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:33:57.704 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:33:57.704 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:34:18.684 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:34:18.684 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:35:05.580 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:35:05.581 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:35:09.185 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:35:09.185 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:39:15.662 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:39:15.662 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:39:16.305 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:39:16.305 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 10:44:41.570 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 10:44:41.578 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 10:44:45.491 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21528 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 10:44:45.493 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 10:44:45.560 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 10:44:45.560 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 10:44:46.680 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 10:44:46.690 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 10:44:46.691 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 10:44:46.691 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 10:44:46.783 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 10:44:46.783 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1222 ms
-2022-11-10 10:44:48.245 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 10:44:48.404 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 10:44:48.422 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 10:44:48.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 10:44:48.456 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.576 seconds (JVM running for 5.869)
-2022-11-10 10:44:48.458 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 10:44:48.458 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 10:45:02.960 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 10:45:02.960 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 10:45:02.964 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
-2022-11-10 10:45:02.971 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 10:45:02.971 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 10:45:02.971 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 10:45:03.104 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 10:45:03.112 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m                  [0;39m {dataSource-1} inited
-2022-11-10 10:45:03.266 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 10:45:03.266 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
-2022-11-10 10:45:03.347 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：376 ms -------------
-2022-11-10 10:45:07.463 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 10:45:07.464 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 10:45:07.464 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 10:45:07.481 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：17 ms -------------
-2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 11:10:34.282 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 11:10:34.307 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 11:10:34.308 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 11:10:34.309 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：26 ms -------------
-2022-11-10 11:10:38.640 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:10:38.641 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 11:10:38.641 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 11:10:38.648 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：7 ms -------------
-2022-11-10 11:10:57.552 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:10:57.553 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 11:10:57.553 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 11:10:57.562 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
-2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 11:11:09.194 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 11:11:09.202 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 11:11:09.203 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 11:11:09.204 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
-2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 11:16:38.473 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
-2022-11-10 11:16:38.483 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
-2022-11-10 11:17:43.962 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:17:43.962 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 11:17:43.963 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 11:17:43.969 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：6 ms -------------
-2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 11:18:27.559 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
-2022-11-10 11:18:27.569 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：10 ms -------------
-2022-11-10 11:21:50.909 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 11:21:50.919 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 14:14:43.451 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 9036 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 14:14:43.452 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 14:14:43.523 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 14:14:43.523 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 14:14:44.676 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 14:14:44.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:14:44.690 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 14:14:44.690 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 14:14:44.773 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 14:14:44.773 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1249 ms
-2022-11-10 14:14:46.204 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:14:46.398 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 14:14:46.421 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:14:46.448 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 14:14:46.459 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.676 seconds (JVM running for 6.083)
-2022-11-10 14:14:46.462 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 14:14:46.463 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 14:15:27.444 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 14:15:27.444 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 14:15:27.451 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 7 ms
-2022-11-10 14:15:27.461 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:15:27.461 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 14:15:27.461 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:15:27.616 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:15:27.625 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m                  [0;39m {dataSource-1} inited
-2022-11-10 14:15:28.028 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：567 ms -------------
-2022-11-10 14:22:09.394 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:09.396 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
-2022-11-10 14:22:09.396 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:09.407 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：11 ms -------------
-2022-11-10 14:22:12.595 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:12.595 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:12.595 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:12.656 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:12.656 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:12.662 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：67 ms -------------
-2022-11-10 14:22:13.766 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:13.766 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:13.766 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:13.775 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:13.776 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:13.777 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：11 ms -------------
-2022-11-10 14:22:14.798 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:14.799 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:14.799 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:14.807 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:14.807 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:14.809 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：9 ms -------------
-2022-11-10 14:22:16.207 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:16.208 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:16.208 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:16.215 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:16.215 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:16.220 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：12 ms -------------
-2022-11-10 14:22:18.156 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:18.157 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:18.157 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:18.163 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:18.163 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:18.165 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
-2022-11-10 14:22:20.194 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:22:20.194 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:22:20.194 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2022-11-10 14:22:20.202 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:22:20.202 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：3
-2022-11-10 14:22:20.203 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：8 ms -------------
-2022-11-10 14:25:16.749 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:25:16.753 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 14:25:21.217 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 2184 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 14:25:21.220 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 14:25:21.280 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 14:25:21.280 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 14:25:22.268 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 14:25:22.278 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:25:22.279 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 14:25:22.279 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 14:25:22.354 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 14:25:22.354 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1073 ms
-2022-11-10 14:25:23.583 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:25:23.735 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 14:25:23.753 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:25:23.778 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 14:25:23.787 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.119 seconds (JVM running for 5.16)
-2022-11-10 14:25:23.789 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 14:25:23.790 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 14:25:35.277 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 14:25:35.277 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 14:25:35.282 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
-2022-11-10 14:25:35.287 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:25:35.288 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:25:35.288 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 14:25:35.295 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :23   [32m                  [0;39m ------------- LogInterceptor 开始 -------------
-2022-11-10 14:25:35.295 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :24   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:25:35.295 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :25   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 14:25:35.424 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m                  [0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:25:35.430 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m                  [0;39m {dataSource-1} inited
-2022-11-10 14:25:35.581 INFO  com.rrzui.wiki.service.EbookService               :88   [32m                  [0;39m 总行数：5
-2022-11-10 14:25:35.581 INFO  com.rrzui.wiki.service.EbookService               :89   [32m                  [0;39m 总页数：2
-2022-11-10 14:25:35.669 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :35   [32m                  [0;39m ------------- LogInterceptor 结束 耗时：374 ms -------------
-2022-11-10 14:25:35.671 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m                  [0;39m ------------- LogFilter 结束 耗时：382 ms -------------
-2022-11-10 14:30:08.918 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:30:08.922 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 14:30:16.028 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25964 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 14:30:16.030 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 14:30:16.087 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 14:30:16.087 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 14:30:17.456 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 14:30:17.466 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:30:17.467 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 14:30:17.467 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 14:30:17.542 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 14:30:17.542 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1455 ms
-2022-11-10 14:30:18.916 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:30:19.149 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 14:30:19.170 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:30:19.198 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 14:30:19.207 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.747 seconds (JVM running for 5.927)
-2022-11-10 14:30:19.209 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 14:30:19.210 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
-2022-11-10 14:30:32.778 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-10 14:30:32.778 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2022-11-10 14:30:32.785 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
-2022-11-10 14:30:32.792 INFO  com.rrzui.wiki.filter.LogFilter                   :25   [32m                  [0;39m ------------- LogFilter 开始 -------------
-2022-11-10 14:30:32.792 INFO  com.rrzui.wiki.filter.LogFilter                   :26   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:30:32.792 INFO  com.rrzui.wiki.filter.LogFilter                   :27   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 14:30:32.797 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :23   [32m                  [0;39m ------------- LogInterceptor 开始 -------------
-2022-11-10 14:30:32.798 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :24   [32m                  [0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:30:32.798 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :25   [32m                  [0;39m 远程地址: 127.0.0.1
-2022-11-10 14:30:32.826 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m245797257268563968[0;39m ------------- 开始 -------------
-2022-11-10 14:30:32.827 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m245797257268563968[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
-2022-11-10 14:30:32.827 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m245797257268563968[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
-2022-11-10 14:30:32.827 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m245797257268563968[0;39m 远程地址: 127.0.0.1
-2022-11-10 14:30:33.131 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m245797257268563968[0;39m 请求参数: [{"page":2,"size":3}]
-2022-11-10 14:30:33.240 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m245797257268563968[0;39m testWhileIdle is true, validationQuery not set
-2022-11-10 14:30:33.247 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m245797257268563968[0;39m {dataSource-1} inited
-2022-11-10 14:30:33.418 INFO  com.rrzui.wiki.service.EbookService               :88   [32m245797257268563968[0;39m 总行数：5
-2022-11-10 14:30:33.418 INFO  com.rrzui.wiki.service.EbookService               :89   [32m245797257268563968[0;39m 总页数：2
-2022-11-10 14:30:33.435 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m245797257268563968[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"name":"TypeScripte入门","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
-2022-11-10 14:30:33.435 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m245797257268563968[0;39m ------------- 结束 耗时：610 ms -------------
-2022-11-10 14:30:33.511 INFO  com.rrzui.wiki.interceptor.LogInterceptor         :35   [32m245797257268563968[0;39m ------------- LogInterceptor 结束 耗时：713 ms -------------
-2022-11-10 14:30:33.514 INFO  com.rrzui.wiki.filter.LogFilter                   :31   [32m245797257268563968[0;39m ------------- LogFilter 结束 耗时：722 ms -------------
-2022-11-10 14:31:44.118 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:31:44.122 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
-2022-11-10 14:31:47.896 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 6092 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
-2022-11-10 14:31:47.898 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
-2022-11-10 14:31:47.955 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-10 14:31:47.955 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-10 14:31:49.511 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2022-11-10 14:31:49.525 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:31:49.526 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2022-11-10 14:31:49.527 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-11-10 14:31:49.635 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2022-11-10 14:31:49.635 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1679 ms
-2022-11-10 14:31:51.060 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-10 14:31:51.308 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
-2022-11-10 14:31:51.332 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2022-11-10 14:31:51.358 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-10 14:31:51.368 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 4.06 seconds (JVM running for 6.17)
-2022-11-10 14:31:51.370 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
-2022-11-10 14:31:51.371 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 09:10:23.597 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 26504 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 09:10:23.601 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 09:10:23.648 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-11 09:10:23.648 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-11 09:10:24.668 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 09:10:24.675 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:10:24.675 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 09:10:24.675 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 09:10:24.743 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 09:10:24.743 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1094 ms
+2022-11-11 09:10:26.156 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 09:10:26.350 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 09:10:26.366 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:10:26.374 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-11-11 09:10:26.376 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 09:10:26.379 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:10:26.379 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-11-11 09:10:26.388 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:10:26.389 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:10:26.394 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-11 09:10:26.400 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-11 09:11:31.267 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 09:11:31.270 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 09:11:31.310 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-11 09:11:31.311 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-11 09:11:32.205 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 09:11:32.211 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:11:32.212 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 09:11:32.212 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 09:11:32.286 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 09:11:32.286 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 975 ms
+2022-11-11 09:11:33.390 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 09:11:33.579 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 09:11:33.596 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 09:11:33.613 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 09:11:33.621 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 2.712 seconds (JVM running for 3.606)
+2022-11-11 09:11:33.623 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 09:11:33.624 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 09:12:02.152 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-11 09:12:02.153 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-11-11 09:12:02.158 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2022-11-11 09:12:02.206 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246079489384255488[0;39m ------------- 开始 -------------
+2022-11-11 09:12:02.207 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246079489384255488[0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-11 09:12:02.207 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246079489384255488[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookByEbookReq
+2022-11-11 09:12:02.207 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246079489384255488[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:12:02.262 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246079489384255488[0;39m 请求参数: [{"id":0,"page":0,"size":0}]
+2022-11-11 09:12:02.332 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246079489384255488[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 09:12:02.340 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m246079489384255488[0;39m {dataSource-1} inited
+2022-11-11 09:12:02.562 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246079489384255488[0;39m 返回结果: {"content":[{"category1_id":122,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"success":true}
+2022-11-11 09:12:02.562 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246079489384255488[0;39m ------------- 结束 耗时：357 ms -------------
+2022-11-11 09:12:05.362 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246079502625673216[0;39m ------------- 开始 -------------
+2022-11-11 09:12:05.363 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246079502625673216[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:12:05.363 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246079502625673216[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:12:05.363 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246079502625673216[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:12:05.365 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246079502625673216[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:12:05.401 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246079502625673216[0;39m 总行数：5
+2022-11-11 09:12:05.401 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246079502625673216[0;39m 总页数：2
+2022-11-11 09:12:05.404 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246079502625673216[0;39m 返回结果: {"content":{"list":[{"category1_id":122,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:12:05.404 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246079502625673216[0;39m ------------- 结束 耗时：42 ms -------------
+2022-11-11 09:12:08.587 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246079516152303616[0;39m ------------- 开始 -------------
+2022-11-11 09:12:08.587 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246079516152303616[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:12:08.587 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246079516152303616[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:12:08.587 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246079516152303616[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:12:08.588 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246079516152303616[0;39m 请求参数: [{"page":2,"size":4}]
+2022-11-11 09:12:08.594 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246079516152303616[0;39m 总行数：5
+2022-11-11 09:12:08.594 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246079516152303616[0;39m 总页数：2
+2022-11-11 09:12:08.594 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246079516152303616[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:12:08.596 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246079516152303616[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-11 09:12:09.583 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246079520329830400[0;39m ------------- 开始 -------------
+2022-11-11 09:12:09.584 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246079520329830400[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:12:09.584 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246079520329830400[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:12:09.584 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246079520329830400[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:12:09.584 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246079520329830400[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:12:09.590 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246079520329830400[0;39m 总行数：5
+2022-11-11 09:12:09.590 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246079520329830400[0;39m 总页数：2
+2022-11-11 09:12:09.591 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246079520329830400[0;39m 返回结果: {"content":{"list":[{"category1_id":122,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:12:09.591 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246079520329830400[0;39m ------------- 结束 耗时：8 ms -------------
+2022-11-11 09:24:46.324 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082694331633664[0;39m ------------- 开始 -------------
+2022-11-11 09:24:46.324 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082694331633664[0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-11 09:24:46.324 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082694331633664[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookByEbookReq
+2022-11-11 09:24:46.326 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082694331633664[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:24:46.326 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082694331633664[0;39m 请求参数: [{"id":0,"page":0,"size":0}]
+2022-11-11 09:24:46.334 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082694331633664[0;39m 返回结果: {"content":[{"category1_id":122,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"success":true}
+2022-11-11 09:24:46.334 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082694331633664[0;39m ------------- 结束 耗时：10 ms -------------
+2022-11-11 09:24:49.302 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082706822270976[0;39m ------------- 开始 -------------
+2022-11-11 09:24:49.303 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082706822270976[0;39m 请求地址: http://localhost:8080/save POST
+2022-11-11 09:24:49.303 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082706822270976[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.save
+2022-11-11 09:24:49.303 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082706822270976[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:24:49.305 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082706822270976[0;39m 请求参数: [{"category1_id":12255,"category2_id":0,"description":"自动配置简单得很","id":1,"name":"Spring boot教程55","page":0,"size":0}]
+2022-11-11 09:24:49.324 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082706822270976[0;39m 返回结果: {"success":true}
+2022-11-11 09:24:49.324 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082706822270976[0;39m ------------- 结束 耗时：22 ms -------------
+2022-11-11 09:24:49.354 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082707040374784[0;39m ------------- 开始 -------------
+2022-11-11 09:24:49.354 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082707040374784[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:24:49.356 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082707040374784[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:24:49.356 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082707040374784[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:24:49.357 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082707040374784[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:24:49.362 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246082707040374784[0;39m 总行数：5
+2022-11-11 09:24:49.362 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246082707040374784[0;39m 总页数：2
+2022-11-11 09:24:49.363 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082707040374784[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:24:49.363 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082707040374784[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-11 09:25:08.239 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :199  [32m                  [0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `long` from String "ilvoe": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `long` from String "ilvoe": not a valid Long value
+ at [Source: (PushbackInputStream); line: 1, column: 74] (through reference chain: com.rrzui.wiki.req.EbookSaveReq["category2_id"])]
+2022-11-11 09:25:21.012 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082839823650816[0;39m ------------- 开始 -------------
+2022-11-11 09:25:21.013 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082839823650816[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:25:21.013 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082839823650816[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:25:21.013 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082839823650816[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:25:21.013 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082839823650816[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:25:21.019 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246082839823650816[0;39m 总行数：5
+2022-11-11 09:25:21.020 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246082839823650816[0;39m 总页数：2
+2022-11-11 09:25:21.020 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082839823650816[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":0,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:25:21.020 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082839823650816[0;39m ------------- 结束 耗时：8 ms -------------
+2022-11-11 09:25:25.453 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082858450554880[0;39m ------------- 开始 -------------
+2022-11-11 09:25:25.454 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082858450554880[0;39m 请求地址: http://localhost:8080/save POST
+2022-11-11 09:25:25.454 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082858450554880[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.save
+2022-11-11 09:25:25.454 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082858450554880[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:25:25.454 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082858450554880[0;39m 请求参数: [{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很","id":1,"name":"Spring boot教程55","page":0,"size":0}]
+2022-11-11 09:25:25.459 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082858450554880[0;39m 返回结果: {"success":true}
+2022-11-11 09:25:25.460 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082858450554880[0;39m ------------- 结束 耗时：7 ms -------------
+2022-11-11 09:25:25.483 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082858576384000[0;39m ------------- 开始 -------------
+2022-11-11 09:25:25.484 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082858576384000[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:25:25.484 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082858576384000[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:25:25.484 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082858576384000[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:25:25.484 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082858576384000[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:25:25.492 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246082858576384000[0;39m 总行数：5
+2022-11-11 09:25:25.493 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246082858576384000[0;39m 总页数：2
+2022-11-11 09:25:25.493 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082858576384000[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:25:25.493 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082858576384000[0;39m ------------- 结束 耗时：10 ms -------------
+2022-11-11 09:25:39.249 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082916315172864[0;39m ------------- 开始 -------------
+2022-11-11 09:25:39.250 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082916315172864[0;39m 请求地址: http://localhost:8080/save POST
+2022-11-11 09:25:39.250 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082916315172864[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.save
+2022-11-11 09:25:39.250 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082916315172864[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:25:39.250 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082916315172864[0;39m 请求参数: [{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","id":1,"name":"Spring boot教程55","page":0,"size":0}]
+2022-11-11 09:25:39.254 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082916315172864[0;39m 返回结果: {"success":true}
+2022-11-11 09:25:39.254 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082916315172864[0;39m ------------- 结束 耗时：5 ms -------------
+2022-11-11 09:25:39.278 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246082916436807680[0;39m ------------- 开始 -------------
+2022-11-11 09:25:39.278 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246082916436807680[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 09:25:39.278 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246082916436807680[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 09:25:39.278 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246082916436807680[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 09:25:39.278 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246082916436807680[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 09:25:39.283 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246082916436807680[0;39m 总行数：5
+2022-11-11 09:25:39.283 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246082916436807680[0;39m 总页数：2
+2022-11-11 09:25:39.283 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246082916436807680[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 09:25:39.283 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246082916436807680[0;39m ------------- 结束 耗时：5 ms -------------
+2022-11-11 10:03:28.088 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092432515665920[0;39m ------------- 开始 -------------
+2022-11-11 10:03:28.088 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092432515665920[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 10:03:28.088 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092432515665920[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:03:28.088 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092432515665920[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:03:28.088 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092432515665920[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:03:28.094 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246092432515665920[0;39m 总行数：5
+2022-11-11 10:03:28.096 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246092432515665920[0;39m 总页数：2
+2022-11-11 10:03:28.097 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092432515665920[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 10:03:28.097 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092432515665920[0;39m ------------- 结束 耗时：10 ms -------------
+2022-11-11 10:03:35.524 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092463704510464[0;39m ------------- 开始 -------------
+2022-11-11 10:03:35.526 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092463704510464[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 10:03:35.526 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092463704510464[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:03:35.526 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092463704510464[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:03:35.526 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092463704510464[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:03:35.530 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246092463704510464[0;39m 总行数：5
+2022-11-11 10:03:35.531 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246092463704510464[0;39m 总页数：2
+2022-11-11 10:03:35.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092463704510464[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 10:03:35.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092463704510464[0;39m ------------- 结束 耗时：7 ms -------------
+2022-11-11 10:03:44.006 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092499280596992[0;39m ------------- 开始 -------------
+2022-11-11 10:03:44.007 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092499280596992[0;39m 请求地址: http://localhost:8080/getEbookByEbookReq GET
+2022-11-11 10:03:44.007 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092499280596992[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookByEbookReq
+2022-11-11 10:03:44.007 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092499280596992[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:03:44.008 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092499280596992[0;39m 请求参数: [{"id":0,"page":0,"size":0}]
+2022-11-11 10:03:44.011 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092499280596992[0;39m 返回结果: {"content":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"success":true}
+2022-11-11 10:03:44.012 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092499280596992[0;39m ------------- 结束 耗时：6 ms -------------
+2022-11-11 10:03:52.530 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092535032844288[0;39m ------------- 开始 -------------
+2022-11-11 10:03:52.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092535032844288[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 10:03:52.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092535032844288[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:03:52.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092535032844288[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:03:52.531 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092535032844288[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:03:52.537 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246092535032844288[0;39m 总行数：5
+2022-11-11 10:03:52.537 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246092535032844288[0;39m 总页数：2
+2022-11-11 10:03:52.538 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092535032844288[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 10:03:52.538 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092535032844288[0;39m ------------- 结束 耗时：8 ms -------------
+2022-11-11 10:04:18.773 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092645103964160[0;39m ------------- 开始 -------------
+2022-11-11 10:04:18.773 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092645103964160[0;39m 请求地址: http://localhost:8080/save POST
+2022-11-11 10:04:18.773 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092645103964160[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.save
+2022-11-11 10:04:18.774 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092645103964160[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:04:18.774 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092645103964160[0;39m 请求参数: [{"category1_id":1,"category2_id":1,"description":"mybaties就是快","id":0,"name":"mybaties教程","page":0,"size":0}]
+2022-11-11 10:04:18.781 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092645103964160[0;39m 返回结果: {"success":true}
+2022-11-11 10:04:18.782 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092645103964160[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-11 10:04:18.805 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092645238181888[0;39m ------------- 开始 -------------
+2022-11-11 10:04:18.805 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092645238181888[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 10:04:18.805 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092645238181888[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:04:18.806 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092645238181888[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:04:18.806 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092645238181888[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:04:18.810 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246092645238181888[0;39m 总行数：6
+2022-11-11 10:04:18.811 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246092645238181888[0;39m 总页数：2
+2022-11-11 10:04:18.811 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092645238181888[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:04:18.811 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092645238181888[0;39m ------------- 结束 耗时：6 ms -------------
+2022-11-11 10:04:31.970 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246092700456194048[0;39m ------------- 开始 -------------
+2022-11-11 10:04:31.971 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246092700456194048[0;39m 请求地址: http://localhost:8080/getEbookListByPage GET
+2022-11-11 10:04:31.971 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246092700456194048[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:04:31.971 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246092700456194048[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:04:31.971 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246092700456194048[0;39m 请求参数: [{"page":2,"size":4}]
+2022-11-11 10:04:31.975 INFO  com.rrzui.wiki.service.EbookService               :90   [32m246092700456194048[0;39m 总行数：6
+2022-11-11 10:04:31.975 INFO  com.rrzui.wiki.service.EbookService               :91   [32m246092700456194048[0;39m 总页数：2
+2022-11-11 10:04:31.976 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246092700456194048[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0},{"category1_id":1,"category2_id":1,"description":"mybaties就是快","doc_count":0,"id":13,"name":"mybaties教程","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:04:31.976 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246092700456194048[0;39m ------------- 结束 耗时：6 ms -------------
+2022-11-11 10:06:41.319 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:06:41.321 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed
+2022-11-11 10:06:41.482 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:06:41.483 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:06:41.731 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:06:41.731 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:06:41.732 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:06:41.732 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:06:41.744 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:06:41.744 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 251 ms
+2022-11-11 10:06:42.265 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:06:42.372 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:06:42.381 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:06:42.384 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:06:42.386 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.943 seconds (JVM running for 3312.371)
+2022-11-11 10:06:42.387 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:06:42.387 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:06:42.387 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:07:43.156 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:07:43.290 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:07:43.291 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:07:43.489 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:07:43.489 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:07:43.489 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:07:43.490 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:07:43.501 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:07:43.501 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 208 ms
+2022-11-11 10:07:44.010 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:07:44.110 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:07:44.120 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:07:44.123 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:07:44.126 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.867 seconds (JVM running for 3374.111)
+2022-11-11 10:07:44.127 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:07:44.128 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:07:44.128 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:09:51.105 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:09:51.236 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:09:51.236 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:09:51.427 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:09:51.427 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:09:51.427 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:09:51.427 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:09:51.438 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:09:51.438 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 201 ms
+2022-11-11 10:09:51.885 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:09:51.983 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:09:51.992 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:09:51.994 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:09:51.997 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.787 seconds (JVM running for 3501.982)
+2022-11-11 10:09:51.998 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:09:51.998 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:09:51.998 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:11:19.038 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-11 10:11:19.039 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-11-11 10:11:19.044 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2022-11-11 10:16:41.261 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095759324352512[0;39m ------------- 开始 -------------
+2022-11-11 10:16:41.262 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095759324352512[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:41.262 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095759324352512[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:41.262 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095759324352512[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:41.265 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095759324352512[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:16:41.276 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246095759324352512[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:16:41.277 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m246095759324352512[0;39m {dataSource-2} inited
+2022-11-11 10:16:41.284 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095759324352512[0;39m 总行数：6
+2022-11-11 10:16:41.284 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095759324352512[0;39m 总页数：2
+2022-11-11 10:16:41.292 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095759324352512[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:16:41.293 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095759324352512[0;39m ------------- 结束 耗时：32 ms -------------
+2022-11-11 10:16:41.298 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095759479541760[0;39m ------------- 开始 -------------
+2022-11-11 10:16:41.299 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095759479541760[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:41.299 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095759479541760[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:41.299 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095759479541760[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:41.299 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095759479541760[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:16:41.305 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095759479541760[0;39m 总行数：6
+2022-11-11 10:16:41.305 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095759479541760[0;39m 总页数：2
+2022-11-11 10:16:41.306 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095759479541760[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:16:41.307 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095759479541760[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-11 10:16:41.309 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095759525679104[0;39m ------------- 开始 -------------
+2022-11-11 10:16:41.310 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095759525679104[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:41.310 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095759525679104[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:41.310 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095759525679104[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:41.311 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095759525679104[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:16:41.315 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095759525679104[0;39m 总行数：6
+2022-11-11 10:16:41.315 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095759525679104[0;39m 总页数：2
+2022-11-11 10:16:41.317 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095759525679104[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:16:41.317 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095759525679104[0;39m ------------- 结束 耗时：8 ms -------------
+2022-11-11 10:16:48.791 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095790907461632[0;39m ------------- 开始 -------------
+2022-11-11 10:16:48.792 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095790907461632[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:48.792 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095790907461632[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:48.792 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095790907461632[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:48.792 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095790907461632[0;39m 请求参数: [{"page":1,"size":4}]
+2022-11-11 10:16:48.798 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095790907461632[0;39m 总行数：6
+2022-11-11 10:16:48.798 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095790907461632[0;39m 总页数：2
+2022-11-11 10:16:48.802 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095790907461632[0;39m 返回结果: {"content":{"list":[{"category1_id":12255,"category2_id":233,"description":"自动配置简单得很自动配置简单","doc_count":0,"id":1,"name":"Spring boot教程55","view_count":0,"vote_count":0},{"category1_id":2,"category2_id":0,"description":"企业级应用首先框架","doc_count":0,"id":2,"name":"vue 入门教程hi","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"description":"零基础开始学","doc_count":0,"id":3,"name":"python 教程","view_count":0,"vote_count":0},{"category1_id":0,"category2_id":0,"cover":"/image/cover1.png","description":"强类型的js","doc_count":0,"id":11,"name":"TypeScripte入门","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:16:48.803 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095790907461632[0;39m ------------- 结束 耗时：12 ms -------------
+2022-11-11 10:16:51.192 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095800977985536[0;39m ------------- 开始 -------------
+2022-11-11 10:16:51.192 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095800977985536[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:51.192 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095800977985536[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:51.193 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095800977985536[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:51.193 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095800977985536[0;39m 请求参数: [{"page":2,"size":4}]
+2022-11-11 10:16:51.197 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095800977985536[0;39m 总行数：6
+2022-11-11 10:16:51.197 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095800977985536[0;39m 总页数：2
+2022-11-11 10:16:51.197 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095800977985536[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0},{"category1_id":1,"category2_id":1,"description":"mybaties就是快","doc_count":0,"id":13,"name":"mybaties教程","view_count":0,"vote_count":0}],"total":6},"success":true}
+2022-11-11 10:16:51.198 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095800977985536[0;39m ------------- 结束 耗时：6 ms -------------
+2022-11-11 10:16:53.212 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095809450479616[0;39m ------------- 开始 -------------
+2022-11-11 10:16:53.212 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095809450479616[0;39m 请求地址: http://localhost:8080/ebook/remove GET
+2022-11-11 10:16:53.212 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095809450479616[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.remove
+2022-11-11 10:16:53.212 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095809450479616[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:53.213 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095809450479616[0;39m 请求参数: [13]
+2022-11-11 10:16:53.216 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095809450479616[0;39m 返回结果: {"success":true}
+2022-11-11 10:16:53.216 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095809450479616[0;39m ------------- 结束 耗时：4 ms -------------
+2022-11-11 10:16:53.234 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m246095809542754304[0;39m ------------- 开始 -------------
+2022-11-11 10:16:53.234 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m246095809542754304[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-11 10:16:53.234 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m246095809542754304[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-11 10:16:53.234 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m246095809542754304[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-11 10:16:53.234 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m246095809542754304[0;39m 请求参数: [{"page":2,"size":4}]
+2022-11-11 10:16:53.242 INFO  com.rrzui.wiki.service.EbookService               :88   [32m246095809542754304[0;39m 总行数：5
+2022-11-11 10:16:53.242 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095809542754304[0;39m 总页数：2
+2022-11-11 10:16:53.242 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095809542754304[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
+2022-11-11 10:16:53.243 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095809542754304[0;39m ------------- 结束 耗时：9 ms -------------

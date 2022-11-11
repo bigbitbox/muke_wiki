@@ -1,133 +1,230 @@
 <template>
-
   <a-layout>
     <a-layout-content
-        :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
+      :style="{
+        background: '#fff',
+        padding: '24px',
+        margin: 0,
+        minHeight: '280px',
+      }"
     >
+      <p>
+        <a-button type="primary" @click="add()" size="large">新增</a-button>
+      </p>
       <a-table
-          :columns="columns"
-          :row-key="record => record.id"
-          :data-source="ebooks"
-          :pagination="pagination"
-          :loading="loading"
-          @change="handleTableChange"
+        :columns="columns"
+        :row-key="(record) => record.id"
+        :data-source="ebooks"
+        :pagination="pagination"
+        :loading="loading"
+        @change="handleTableChange"
       >
         <template #cover="{ text: cover }">
-          <img v-if="cover" :src="cover" alt="avatar" style="width: 20%;height: 20%"/>
+          <img
+            v-if="cover"
+            :src="cover"
+            alt="avatar"
+            style="width: 20%; height: 20%"
+          />
         </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
-            <router-link :to="'/admin/doc?ebookId=' + record.id">
-              <a-button type="primary">
-                编辑
-              </a-button>
-            </router-link>
-            <a-button type="primary" @click="edit(record)">
-              删除
-            </a-button>
+            <!-- <router-link :to="'/admin/doc?ebookId=' + record.id"> -->
+              <a-button type="primary" @click="edit(record)"> 编辑 </a-button>
+            <!-- </router-link> -->
+            <a-popconfirm
+            title="删除后不可恢复，确定删除？"
+            ok-text="是"
+            cancel-text="否"
+            @confirm="handleDelete(record.id)">
+              <a-button type="danger"> 删除 </a-button>
+            </a-popconfirm>
           </a-space>
         </template>
       </a-table>
-
     </a-layout-content>
   </a-layout>
+
+  <a-modal
+    title="电子书表单"
+    v-model:visible="modalVisible"
+    :confirm-loading="modalLoading"
+    @ok="handleModalOk"
+  >
+    <a-form :model="ebook" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
+      <a-form-item label="封面">
+        <a-input v-model:value="ebook.cover" />
+      </a-form-item>
+      <a-form-item label="名称">
+        <a-input v-model:value="ebook.name" />
+      </a-form-item>
+      <a-form-item label="分类一">
+        <a-input v-model:value="ebook.category1_id" />
+      </a-form-item>
+      <a-form-item label="分类二">
+        <a-input v-model:value="ebook.category2_id" />
+      </a-form-item>
+      <a-form-item label="描述">
+        <a-input v-model:value="ebook.description" type="textarea" />
+      </a-form-item>
+    </a-form>
+  </a-modal>
 </template>
 <script lang="ts">
-import { defineComponent ,onMounted,ref} from 'vue';
-import axios from 'axios'
-
-
+import { defineComponent, onMounted, ref } from "vue";
+import axios from "axios";
 
 export default defineComponent({
-  name: 'AdminEbook',
+  name: "AdminEbook",
   // components: {
   //
   // },
-  setup(){
+  setup() {
     const ebooks = ref();
     const pagination = ref({
       current: 1,
-      pageSize: 2,
-      total: 0
+      pageSize: 4,
+      total: 0,
     });
     const loading = ref(false);
     const columns = [
       {
-        title: '封面',
-        dataIndex: 'cover',
-        slots: { customRender: 'cover' }
+        title: "封面",
+        dataIndex: "cover",
+        slots: { customRender: "cover" },
       },
       {
-        title: '名称',
-        dataIndex: 'name'
+        title: "名称",
+        dataIndex: "name",
+      },
+
+      {
+        title: "分类一",
+        dataIndex: "category1_id",
       },
       {
-        title: '分类',
-        slots: { customRender: 'category' }
+        title: "分类二",
+        dataIndex: "category2_id",
       },
       {
-        title: '文档数',
-        dataIndex: 'docCount'
+        title: "文档数",
+        dataIndex: "doc_count",
       },
       {
-        title: '阅读数',
-        dataIndex: 'viewCount'
+        title: "阅读数",
+        dataIndex: "view_count",
       },
       {
-        title: '点赞数',
-        dataIndex: 'voteCount'
+        title: "点赞数",
+        dataIndex: "vote_count",
       },
       {
-        title: 'Action',
-        key: 'action',
-        slots: { customRender: 'action' }
-      }
+        title: "Action",
+        key: "action",
+        slots: { customRender: "action" },
+      },
     ];
 
     /*
-    * 数据查询
-    * */
-    const  handleQuery = (params:any)=>{
+     * 数据查询
+     * */
+    const handleQuery = (params: any) => {
       loading.value = true;
-      axios.get("/getEbookListByPage",{
-        params:{
-          page:params.page,
-          size:params.size
-        }
-      }).then((resp)=>{
-        loading.value = false;
-        const  data = resp.data;
-        ebooks.value = data.content.list;
+      axios
+        .get("/ebook/getEbookListByPage", {
+          params: {
+            page: params.page,
+            size: params.size,
+          },
+        })
+        .then((resp) => {
+          loading.value = false;
+          const data = resp.data;
+          ebooks.value = data.content.list;
 
-        //重置分页按钮
-        pagination.value.current = params.page;
-        pagination.value.total = data.content.total;
-      });
+          //重置分页按钮
+          pagination.value.current = params.page;
+          pagination.value.total = data.content.total;
+        });
     };
     /*
-    * 表格点击页码时触发
-    * */
-    const handleTableChange =(pagination:any)=>{
-      console.log("看看自带分页的参数都有些啥："+pagination);
+     * 表格点击页码时触发
+     * */
+    const handleTableChange = (pagination: any) => {
+      console.log("看看自带分页的参数都有些啥：" + pagination);
       handleQuery({
-        page:pagination.current,
-        size:pagination.pageSize
+        page: pagination.current,
+        size: pagination.pageSize,
       });
     };
 
-    onMounted(()=>{
-      handleQuery({
-        page:1,
-        size:pagination.value.pageSize
+    // -------- 表单 ---------
+    const ebook = ref({});
+    const modalVisible = ref(false);
+    const modalLoading = ref(false);
+    // 删除方法
+    const handleDelete = (id:number)=>{
+      axios.get('/ebook/remove',{params:{id:id}}).then((resp)=>{
+        if (resp.data.success){
+          handleQuery({
+            page:pagination.value.current,
+            size:pagination.value.pageSize
+          })
+        }
       })
-    })
+    }
+
+    const handleModalOk = () => {
+      modalLoading.value = true;
+      console.log(ebook.value);
+      axios.post("/ebook/save",ebook.value).then(
+        (resp)=>{
+          const data = resp.data;
+          if (data.success){
+            modalVisible.value = false;
+            modalLoading.value = false;
+            //重新加载列表
+            handleQuery({
+              page:pagination.value.current,
+              size:pagination.value.pageSize
+            })
+          }
+        }
+      )
+    };
+    //编辑
+    const edit = (record:any) => {
+      ebook.value = record;
+      modalVisible.value = true;
+    };
+    //新增
+    const add = ()=>{
+      ebook.value = {};
+      modalVisible.value = true;
+    }
+
+    onMounted(() => {
+      handleQuery({
+        page: 1,
+        size: pagination.value.pageSize,
+      });
+    });
     return {
       ebooks,
       pagination,
       columns,
       loading,
-      handleTableChange
-    }
-  }
+      handleTableChange,
+
+
+      add,
+      edit,
+      modalLoading,
+      modalVisible,
+      handleModalOk,
+      handleDelete,
+      ebook
+    };
+  },
 });
 </script>
