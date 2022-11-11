@@ -1,5 +1,6 @@
 package com.rrzui.wiki.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rrzui.wiki.entity.Category;
 import com.rrzui.wiki.req.CategoryQueryReq;
@@ -64,4 +65,16 @@ public class CategoryController {
         return resp;
     }
 
+    @GetMapping("/allList")
+    public CommonResp allList(CategoryQueryReq req){
+        QueryWrapper<Category> wrapper = new QueryWrapper<>();
+        wrapper.orderByAsc("sort");
+        List<Category> list = categoryService.list(wrapper);
+
+        List<CategoryQueryResp> resp = CopyUtil.copyList(list, CategoryQueryResp.class);
+
+        CommonResp<List<CategoryQueryResp>> listCommonResp = new CommonResp<>();
+        listCommonResp.setContent(resp);
+        return listCommonResp;
+    }
 }
