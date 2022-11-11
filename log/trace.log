@@ -333,3 +333,174 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-11-11 10:16:53.242 INFO  com.rrzui.wiki.service.EbookService               :89   [32m246095809542754304[0;39m 总页数：2
 2022-11-11 10:16:53.242 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m246095809542754304[0;39m 返回结果: {"content":{"list":[{"category1_id":0,"category2_id":0,"cover":"/image/cover2.png","description":"JavaScripte入门","doc_count":0,"id":12,"name":"JavaScripte入门","view_count":0,"vote_count":0}],"total":5},"success":true}
 2022-11-11 10:16:53.243 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m246095809542754304[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-11 10:30:31.967 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:30:31.968 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-2} closed
+2022-11-11 10:30:32.088 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:30:32.089 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:30:32.277 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:30:32.278 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:30:32.278 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:30:32.278 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:30:32.290 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:30:32.290 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 200 ms
+2022-11-11 10:30:32.801 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:30:32.922 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:30:32.932 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:30:32.935 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:30:32.938 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.877 seconds (JVM running for 4742.923)
+2022-11-11 10:30:32.940 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:30:32.940 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:30:32.940 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:30:37.761 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:30:37.862 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:30:37.862 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:30:38.017 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:30:38.017 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:30:38.019 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:30:38.019 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:30:38.029 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:30:38.030 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 166 ms
+2022-11-11 10:30:38.519 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:30:38.613 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:30:38.621 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:30:38.623 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:30:38.626 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.787 seconds (JVM running for 4748.61)
+2022-11-11 10:30:38.627 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:30:38.627 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:30:38.627 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:31:10.958 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:31:11.080 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:31:11.080 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:31:11.268 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:31:11.268 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:31:11.269 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:31:11.269 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:31:11.280 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:31:11.280 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 198 ms
+2022-11-11 10:31:11.713 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:31:11.802 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:31:11.818 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:31:11.820 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:31:11.823 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.765 seconds (JVM running for 4781.808)
+2022-11-11 10:31:11.823 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:31:11.824 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:31:11.824 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:32:57.398 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:32:57.486 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:32:57.486 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:32:57.665 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:32:57.666 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:32:57.666 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:32:57.666 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:32:57.676 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:32:57.677 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 189 ms
+2022-11-11 10:32:58.115 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:32:58.204 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:32:58.222 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:32:58.224 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:32:58.227 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.763 seconds (JVM running for 4888.211)
+2022-11-11 10:32:58.227 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:32:58.227 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:32:58.228 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:34:34.794 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:34:34.920 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:34:34.920 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:34:35.085 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:34:35.085 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:34:35.085 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:34:35.085 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:34:35.095 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:34:35.095 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 173 ms
+2022-11-11 10:34:35.524 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:34:35.614 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:34:35.632 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:34:35.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:34:35.636 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.736 seconds (JVM running for 4985.62)
+2022-11-11 10:34:35.637 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:34:35.637 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:34:35.637 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:35:45.571 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:35:45.668 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:35:45.668 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:35:45.850 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:35:45.851 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:35:45.851 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:35:45.851 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:35:45.880 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:35:45.880 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 210 ms
+2022-11-11 10:35:46.326 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:35:46.427 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:35:46.445 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:35:46.447 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:35:46.449 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.8 seconds (JVM running for 5056.433)
+2022-11-11 10:35:46.449 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:35:46.449 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:35:46.450 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:36:07.604 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:36:07.687 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 21288 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:36:07.688 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:36:07.838 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:36:07.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:36:07.839 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:36:07.839 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:36:07.849 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:36:07.849 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 160 ms
+2022-11-11 10:36:08.287 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:36:08.385 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:36:08.404 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:36:08.406 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:36:08.409 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.742 seconds (JVM running for 5078.393)
+2022-11-11 10:36:08.410 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-11 10:36:08.410 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:36:08.410 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-11 10:37:21.449 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:39:36.928 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 27760 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:39:36.931 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:39:36.967 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-11 10:39:36.968 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-11 10:39:37.732 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:39:37.737 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:39:37.738 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:39:37.738 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:39:37.804 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:39:37.804 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 836 ms
+2022-11-11 10:39:37.844 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryController': Unsatisfied dependency expressed through field 'categoryService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.rrzui.wiki.service.CategoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-11-11 10:39:37.846 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-11-11 10:39:37.859 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-11 10:39:37.937 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field categoryService in com.rrzui.wiki.controller.CategoryController required a bean of type 'com.rrzui.wiki.service.CategoryService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.CategoryService' in your configuration.
+
+2022-11-11 10:43:06.742 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 19664 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-11 10:43:06.745 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-11 10:43:06.782 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-11 10:43:06.782 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-11 10:43:07.531 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-11 10:43:07.536 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:43:07.537 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-11 10:43:07.537 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-11 10:43:07.600 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-11 10:43:07.601 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 819 ms
+2022-11-11 10:43:08.675 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-11 10:43:08.859 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-11 10:43:08.874 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-11 10:43:08.887 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-11 10:43:08.894 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 2.461 seconds (JVM running for 3.266)
+2022-11-11 10:43:08.897 INFO  com.rrzui.wiki.config.WikiApplication             :24   [32m                  [0;39m 启动成功！！
+2022-11-11 10:43:08.897 INFO  com.rrzui.wiki.config.WikiApplication             :25   [32m                  [0;39m 地址：	http://127.0.0.1:8080

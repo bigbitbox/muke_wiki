@@ -14,3 +14,21 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 
 2022-11-11 09:12:02.332 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246079489384255488[0;39m testWhileIdle is true, validationQuery not set
 2022-11-11 10:16:41.276 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246095759324352512[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:39:37.937 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field categoryService in com.rrzui.wiki.controller.CategoryController required a bean of type 'com.rrzui.wiki.service.CategoryService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.CategoryService' in your configuration.
+
