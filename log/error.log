@@ -50,3 +50,4 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 
 2022-11-11 14:34:12.123 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246160564273942528[0;39m testWhileIdle is true, validationQuery not set
 2022-11-11 15:02:18.635 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246167638630338560[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 19:27:24.274 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246234351291994112[0;39m testWhileIdle is true, validationQuery not set
