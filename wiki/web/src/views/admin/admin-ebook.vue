@@ -13,7 +13,7 @@
       </p>
       <a-table
         :columns="columns"
-        :row-key="(record) => record.id"
+        :row-key="(record:any) => record.id"
         :data-source="ebooks"
         :pagination="pagination"
         :loading="loading"
@@ -27,11 +27,12 @@
             style="width: 20%; height: 20%"
           />
         </template>
+
+
+
         <template v-slot:action="{ text, record }">
           <a-space size="small">
-            <!-- <router-link :to="'/admin/doc?ebookId=' + record.id"> -->
             <a-button type="primary" @click="edit(record)"> 编辑 </a-button>
-            <!-- </router-link> -->
             <a-popconfirm
               title="删除后不可恢复，确定删除？"
               ok-text="是"
@@ -42,6 +43,7 @@
             </a-popconfirm>
           </a-space>
         </template>
+
       </a-table>
     </a-layout-content>
   </a-layout>
@@ -83,6 +85,7 @@ import { defineComponent, onMounted, ref } from "vue";
 import axios from "axios";
 import { Tool } from "@/utils/tool";
 import { message } from "ant-design-vue";
+import { any } from "_vue-types@3.0.2@vue-types";
 
 export default defineComponent({
   name: "AdminEbook",
@@ -109,13 +112,10 @@ export default defineComponent({
       },
 
       {
-        title: "分类一",
-        dataIndex: "category1_id",
+        title: "分类",
+        slots: { customRender: "category" },
       },
-      {
-        title: "分类二",
-        dataIndex: "category2_id",
-      },
+
       {
         title: "文档数",
         dataIndex: "doc_count",
@@ -206,13 +206,15 @@ export default defineComponent({
 
     //  分类相关 ————————————————
     const level1 = ref();
+    let categorys: any;
     // 查询所有分类
     const handleQueryCategory = () => {
       loading.value = true;
+      ebooks.value = [];
       axios.get("/category/allList").then((resp) => {
         loading.value = false;
         const data = resp.data;
-        // const ebook = resp.data;
+        categorys = data.content;
         if (data.success) {
           console.log(data.content);
           console.log("origin array", data.content);
@@ -227,6 +229,18 @@ export default defineComponent({
         // categorys.value = data.content;
       });
     };
+
+    // ————————获取分类名字————————
+    const getCategoryName = (cid:number)=>{
+  let result = "";
+  categorys.forEach((item:any)=>{
+    if (item.id === cid){
+      result = item.name;
+    }
+
+  });
+  return result;
+}
 
     //编辑
     const edit = (record: any) => {
@@ -246,8 +260,7 @@ export default defineComponent({
         size: pagination.value.pageSize,
       });
       handleQueryCategory();
-      console.log("this is level1",level1);
-      
+      console.log("this is level1", level1);
     });
     return {
       ebooks,
@@ -266,6 +279,8 @@ export default defineComponent({
 
       categoryIds,
       level1,
+      getCategoryName,
+      categorys
     };
   },
 });

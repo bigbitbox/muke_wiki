@@ -13,7 +13,7 @@
       </p>
       <a-table
         :columns="columns"
-        :row-key="(record) => record.id"
+        :row-key="(record:any) => record.id"
         :data-source="level1"
         :pagination="false"
         :loading="loading"
@@ -26,11 +26,11 @@
             style="width: 20%; height: 20%"
           />
         </template>
+
+
         <template v-slot:action="{ text, record }">
           <a-space size="small">
-            <!-- <router-link :to="'/admin/doc?categoryId=' + record.id"> -->
             <a-button type="primary" @click="edit(record)"> 编辑 </a-button>
-            <!-- </router-link> -->
             <a-popconfirm
               title="删除后不可恢复，确定删除？"
               ok-text="是"
@@ -79,6 +79,7 @@ import { defineComponent, onMounted, ref } from "vue";
 import axios from "axios";
 import { Tool } from "@/utils/tool";
 import { message } from "ant-design-vue";
+import { any } from "_vue-types@3.0.2@vue-types";
 
 export default defineComponent({
   name: "AdminCategory",
@@ -86,7 +87,7 @@ export default defineComponent({
   //
   // },
   setup() {
-    const categorys = ref();
+    let categorys:any;
     const pagination = ref({
       current: 1,
       pageSize: 4,
@@ -100,8 +101,9 @@ export default defineComponent({
       },
 
       {
-        title: "父分类",
-        dataIndex: "parent",
+        title: "分类",
+        slots: {customRender: 'category'}
+        // dataIndex: "parent",
       },
 
       {
@@ -141,7 +143,7 @@ export default defineComponent({
     };
 
     // -------- 表单 ---------
-    const category = ref({});
+    const category = ref();
     const modalVisible = ref(false);
     const modalLoading = ref(false);
     // 删除方法
@@ -188,6 +190,7 @@ export default defineComponent({
         page: 1,
         size: pagination.value.pageSize,
       });
+      // handleQueryCategory;
     });
     return {
       categorys,
