@@ -9,8 +9,44 @@
       }"
     >
       <p>
-        <a-button type="primary" @click="add()" size="large">新增</a-button>
+        <a-form layout="inline" :model="param">
+          <a-form-item>
+            <a-input
+              v-model:value="param.name"
+              placeholder="名称"
+              :style="{
+                borderRadius: '15px',
+              }"
+            >
+            </a-input>
+          </a-form-item>
+          <a-form-item>
+            <a-button
+              type="primary"
+              @click="handleQuery({ page: 1, size: pagination.pageSize })"
+              :style="{
+                background: 'green',
+                borderColor: 'green',
+                borderRadius: '15px',
+              }"
+            >
+              查询
+            </a-button>
+          </a-form-item>
+          <a-form-item>
+            <a-button
+              type="primary"
+              @click="add()"
+              :style="{
+                borderRadius: '15px',
+              }"
+            >
+              新增
+            </a-button>
+          </a-form-item>
+        </a-form>
       </p>
+
       <a-table
         :columns="columns"
         :row-key="(record:any) => record.id"
@@ -140,6 +176,13 @@ export default defineComponent({
       },
     ];
 
+    /**
+     * 搜索相关
+     * @param params
+     */
+    const param = ref();
+    param.value = {};
+
     /*
      * 数据查询
      * */
@@ -150,16 +193,23 @@ export default defineComponent({
           params: {
             page: params.page,
             size: params.size,
+            // size: 10000,
+            name: param.value.name,
           },
         })
         .then((resp) => {
           loading.value = false;
           const data = resp.data;
-          ebooks.value = data.content.list;
 
-          //重置分页按钮
-          pagination.value.current = params.page;
-          pagination.value.total = data.content.total;
+          if (data.success) {
+            ebooks.value = data.content.list;
+
+            //重置分页按钮
+            pagination.value.current = params.page;
+            pagination.value.total = data.content.total;
+          } else {
+            message.error(data.message);
+          }
         });
     };
     /*
@@ -199,12 +249,14 @@ export default defineComponent({
         const data = resp.data;
         if (data.success) {
           modalVisible.value = false;
-          modalLoading.value = false;
+          // modalLoading.value = false;
           //重新加载列表
           handleQuery({
             page: pagination.value.current,
             size: pagination.value.pageSize,
           });
+        } else {
+          message.error(data.message);
         }
       });
     };
@@ -242,7 +294,6 @@ export default defineComponent({
     // ————————获取分类名字————————
     const getCategoryName = (cid: number) => {
       let result = "";
-      console.log("categorys", categorys);
       categorys.forEach((item: any) => {
         if (item.id === cid) {
           result = item.name;
@@ -253,7 +304,7 @@ export default defineComponent({
 
     //编辑
     const edit = (record: any) => {
-      ebook.value = record;
+      ebook.value = Tool.copy(record);
       modalVisible.value = true;
       categoryIds.value = [ebook.value.category1_id, ebook.value.category2_id];
     };
@@ -287,6 +338,9 @@ export default defineComponent({
       level1,
       getCategoryName,
       categorys,
+
+      handleQuery,
+      param,
     };
   },
 });

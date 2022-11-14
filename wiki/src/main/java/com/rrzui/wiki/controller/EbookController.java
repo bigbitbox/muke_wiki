@@ -17,6 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -80,9 +81,20 @@ public class EbookController {
     private static final Logger LOG = LoggerFactory.getLogger(EbookService.class);
 
     @GetMapping("/getEbookListByPage")
-    public CommonResp getEbookListByPage(PageReq pageReq){
+    public CommonResp getEbookListByPage(@Valid EbookQueryReq pageReq){
         Page<Ebook> page = new Page<>(pageReq.getPage(), pageReq.getSize());
-        page = ebookService.page(page);
+
+        QueryWrapper<Ebook> wrapper = new QueryWrapper<>();
+        if (!ObjectUtils.isEmpty(pageReq.getCategory2_id())){
+            wrapper.like("category2_id",pageReq.getCategory2_id());
+        }
+        if (!ObjectUtils.isEmpty(pageReq.getName())){
+            wrapper.like("name",pageReq.getName());
+        }
+
+        page = ebookService.page(page,wrapper);
+
+
         List<Ebook> list = page.getRecords();
 
         LOG.info("总行数：{}",page.getTotal()+"");
@@ -100,7 +112,7 @@ public class EbookController {
     }
 
     @PostMapping("/save")
-    public CommonResp save(@RequestBody EbookSaveReq req){
+    public CommonResp save(@Valid @RequestBody EbookSaveReq req){
         Ebook ebook = CopyUtil.copy(req, Ebook.class);
         //会根据是否有id判断   修改（有id）  新增（无id）
         ebookService.saveOrUpdate(ebook);

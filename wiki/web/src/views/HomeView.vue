@@ -80,6 +80,8 @@ export default defineComponent({
     const level1 = ref();
     let categorys: any;
 
+
+
     const handleQueryCategory = () => {
       axios.get("/category/allList").then((resp) => {
         const data = resp.data;
@@ -98,29 +100,22 @@ export default defineComponent({
       });
     };
 
-    const isShowWelcom = ref(true);
-    const handleClick = (value:any) => {
-      // console.log("menu click",value);
-      // if (value.key === 'welcome'){
-      //   isShowWelcom.value = true;
-      // } else {
-      //   isShowWelcom.value = false;
-      // }
 
-      /**
-       * 代码简化
-       */
-        isShowWelcom.value = value.key === 'welcome';
-    };
 
-    onMounted(() => {
-      handleQueryCategory();
+
+    
+    /**
+     * 获取ebook
+     */
+
+     const handleQueryEbook = ()=>{
       axios
         // .get("http://localhost:8080/getEbooks")
         .get("/ebook/getEbookListByPage", {
           params: {
             page: 1,
             size: 1000,
+            category2_id:category2id
           },
         })
         .then((resp) => {
@@ -129,6 +124,34 @@ export default defineComponent({
           ebooks.value = data;
           ebooks2.books = data;
         });
+     }
+
+
+    /**
+     * 修改tab的展示
+     */
+    const isShowWelcom = ref(true);
+    let category2id = 0;
+    const handleClick = (value:any) => {
+      console.log("menu click",value);
+      if (value.key === 'welcome'){
+        isShowWelcom.value = true;
+      } else {
+        category2id = value.key;
+        isShowWelcom.value = false;
+        handleQueryEbook();
+      }
+
+      /**
+       * 代码简化
+       * isShowWelcom.value = value.key === 'welcome';
+       */
+
+    };
+
+    onMounted(() => {
+      handleQueryCategory();
+
     });
     return {
       level1,
