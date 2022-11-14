@@ -3,6 +3,19 @@
     <a-layout>
       <a-layout-sider width="200" style="background: #fff">
         <a-menu mode="inline" :style="{ height: '100%', borderRight: 0 }">
+          <a-menu-item key="welcome">
+            <MailOutlined />
+            <span>欢迎</span>
+          </a-menu-item>
+          <a-sub-menu v-for="item in level1" :key="item.id">
+            <template v-slot:title>
+              <span><user-outlined />{{ item.name }}</span>
+            </template>
+            <a-menu-item v-for="child in item.children" :key="child.id">
+              <MailOutlined /><span>{{ child.name }}</span>
+            </a-menu-item>
+          </a-sub-menu>
+
           <a-sub-menu key="sub1">
             <template #title>
               <span>
@@ -57,7 +70,7 @@
         <a-list
           item-layout="vertical"
           size="large"
-          :grid="{gutter:20,column:3}"
+          :grid="{ gutter: 20, column: 3 }"
           :pagination="pagination"
           :data-source="ebooks"
         >
@@ -87,6 +100,8 @@
 <script lang="ts">
 import { defineComponent, onMounted, ref, reactive, toRef } from "vue";
 import axios from "axios";
+import { message } from "ant-design-vue";
+import { Tool } from "@/utils/tool";
 
 export default defineComponent({
   name: "HomeView",
@@ -96,27 +111,43 @@ export default defineComponent({
     const ebooks = ref();
     const ebooks2 = reactive({ books: [] });
 
-    // const listData: any = [];
-    // for (let i = 0; i < 23; i++) {
-    //   listData.push({
-    //     href: "https://www.antdv.com/",
-    //     title: `ant design vue part ${i}`,
-    //     avatar: "https://joeschmoe.io/api/v1/random",
-    //     description:
-    //       "Ant Design, a design language for background applications, is refined by Ant UED Team.",
-    //     content:
-    //       "We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.",
-    //   });
-    // }
+    /**
+     * 查询所有分类
+     */
+    const level1 = ref();
+    let categorys: any;
+
+    const handleQueryCategory = () => {
+      axios.get("/category/allList").then((resp) => {
+        const data = resp.data;
+        categorys = data.content;
+
+        if (data.success) {
+          console.log(data.content);
+          console.log("原始数组：", data.content);
+
+          level1.value = [];
+          level1.value = Tool.array2Tree(data.content, 0);
+          console.log("树形结构：", level1);
+        } else {
+          message.error(data.message);
+        }
+      });
+    };
+
+    const handleClick = () => {
+      console.log("menu click");
+    };
 
     onMounted(() => {
+      handleQueryCategory();
       axios
         // .get("http://localhost:8080/getEbooks")
-        .get("/ebook/getEbookListByPage",{
-          params:{
-            page:1,
-            size:1000
-          }
+        .get("/ebook/getEbookListByPage", {
+          params: {
+            page: 1,
+            size: 1000,
+          },
         })
         .then((resp) => {
           console.log(resp);
@@ -126,6 +157,9 @@ export default defineComponent({
         });
     });
     return {
+      level1,
+      handleClick,
+
       ebooks,
       ebooks2: toRef(ebooks2, "books"),
       // listData,
@@ -144,7 +178,6 @@ export default defineComponent({
   },
 });
 </script>
-
 
 <style scoped>
 .ant-avatar {

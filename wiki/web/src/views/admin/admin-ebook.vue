@@ -28,7 +28,13 @@
           />
         </template>
 
-
+        <template v-slot:category="{ text, record }">
+          <span>
+            {{ getCategoryName(record.category1_id) }}
+            /
+            {{ getCategoryName(record.category2_id) }}
+          </span>
+        </template>
 
         <template v-slot:action="{ text, record }">
           <a-space size="small">
@@ -43,7 +49,6 @@
             </a-popconfirm>
           </a-space>
         </template>
-
       </a-table>
     </a-layout-content>
   </a-layout>
@@ -222,6 +227,10 @@ export default defineComponent({
           level1.value = [];
           level1.value = Tool.array2Tree(data.content, 0);
           console.log("树形结构", level1);
+          handleQuery({
+            page: 1,
+            size: pagination.value.pageSize,
+          });
         } else {
           message.error(data.message);
         }
@@ -231,16 +240,16 @@ export default defineComponent({
     };
 
     // ————————获取分类名字————————
-    const getCategoryName = (cid:number)=>{
-  let result = "";
-  categorys.forEach((item:any)=>{
-    if (item.id === cid){
-      result = item.name;
-    }
-
-  });
-  return result;
-}
+    const getCategoryName = (cid: number) => {
+      let result = "";
+      console.log("categorys", categorys);
+      categorys.forEach((item: any) => {
+        if (item.id === cid) {
+          result = item.name;
+        }
+      });
+      return result;
+    };
 
     //编辑
     const edit = (record: any) => {
@@ -255,11 +264,8 @@ export default defineComponent({
     };
 
     onMounted(() => {
-      handleQuery({
-        page: 1,
-        size: pagination.value.pageSize,
-      });
       handleQueryCategory();
+
       console.log("this is level1", level1);
     });
     return {
@@ -280,7 +286,7 @@ export default defineComponent({
       categoryIds,
       level1,
       getCategoryName,
-      categorys
+      categorys,
     };
   },
 });

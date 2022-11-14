@@ -1,0 +1,53 @@
+2022-11-11 09:10:26.400 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-11 09:12:02.332 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246079489384255488[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:16:41.276 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246095759324352512[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:39:37.937 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field categoryService in com.rrzui.wiki.controller.CategoryController required a bean of type 'com.rrzui.wiki.service.CategoryService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.CategoryService' in your configuration.
+
+2022-11-11 10:52:26.535 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246104756748161024[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 10:57:49.061 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246106109545418752[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 14:27:24.728 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-11 14:34:12.123 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246160564273942528[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 15:02:18.635 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246167638630338560[0;39m testWhileIdle is true, validationQuery not set
+2022-11-11 19:27:24.274 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m246234351291994112[0;39m testWhileIdle is true, validationQuery not set
