@@ -11,6 +11,7 @@ import lombok.Data;
 
 @Data
 public class DocQueryResp {
+    private int id;
     private long ebook_id;//电子书id
     private long parent;//父id
     private String name;//名称
