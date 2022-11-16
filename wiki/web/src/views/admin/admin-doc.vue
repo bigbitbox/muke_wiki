@@ -94,6 +94,11 @@
             <a-form-item label="顺序">
               <a-input v-model:value="doc.sort" placeholder="顺序" />
             </a-form-item>
+            <a-form-item>
+              <a-button type="primary" @click="handlePreviewContent()">
+                <EyeOutlined />
+              </a-button>
+            </a-form-item>
             <a-form-item label="内容">
               <div id="content"></div>
             </a-form-item>
@@ -103,6 +108,16 @@
           </a-form>
         </a-col>
       </a-row>
+
+      <a-drawer
+        width="900"
+        placement="right"
+        :closable="false"
+        :visible="drawerVisible"
+        @close="onDrawerClose"
+      >
+        <div class="wangeditor" :innerHTML="previewHtml"></div>
+      </a-drawer>
     </a-layout-content>
   </a-layout>
   <!--    <a-modal-->
@@ -130,6 +145,7 @@ export default defineComponent({
   // },
   setup() {
     const docs = ref();
+
     const route = useRoute();
     const pagination = ref({
       current: 1,
@@ -154,11 +170,12 @@ export default defineComponent({
      * */
     const level1 = ref(); //一级文档树，children属性就是二级文档
     level1.value = [];
+
     const handleQuery = (params: any) => {
       loading.value = true;
       //如果不清空现有数据，则编辑保存数据后，再编辑数据会是之前的数据
       level1.value = [];
-      axios.get("/doc/allList/"+route.query.ebookId).then((resp) => {
+      axios.get("/doc/allList/" + route.query.ebookId).then((resp) => {
         loading.value = false;
         const data = resp.data;
         if (data.success) {
@@ -169,8 +186,9 @@ export default defineComponent({
           level1.value = Tool.array2Tree(data.content, 0);
           console.log("树形结构:", level1);
 
+
           treeSelectData.value = Tool.copy(level1.value) || [];
-          treeSelectData.value.unshift({id:0 , name:'无'});
+          treeSelectData.value.unshift({ id: 0, name: "无" });
         } else {
           message.error(data.message);
         }
@@ -196,7 +214,9 @@ export default defineComponent({
     const treeSelectData = ref();
     treeSelectData.value = [];
     const doc = ref();
-    doc.value = {};
+    doc.value = {
+      ebook_id: route.query.ebookId
+    }
     const modalVisible = ref(false);
     const modalLoading = ref(false);
 
@@ -253,9 +273,21 @@ export default defineComponent({
       // }, 100)
     };
 
+    // ---富文本预览
+    const drawerVisible = ref(false);
+    const previewHtml = ref();
+    const handlePreviewContent = () => {
+      const html = editor.txt.html();
+      previewHtml.value = html;
+      drawerVisible.value = true;
+    };
+    const onDrawerClose = () => {
+      drawerVisible.value = false;
+    };
+
     //新增
     const add = () => {
-        editor.txt.html("");
+      editor.txt.html("");
       modalVisible.value = true;
       doc.value = {
         ebookId: route.query.ebookId,
@@ -400,6 +432,10 @@ export default defineComponent({
       getDeleteIds,
 
       editor,
+      handlePreviewContent,
+      drawerVisible,
+      onDrawerClose,
+      previewHtml,
     };
   },
 });
