@@ -24,4 +24,6 @@ public class DocSaveReq {
     private int sort;//顺序
     private int view_count;//阅读数
     private int vote_count;//点赞数
+    @NotNull(message = "【内容】不能为空")
+    private String content;//名称
 }
