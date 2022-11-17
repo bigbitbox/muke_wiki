@@ -1,26 +1,24 @@
 <template>
   <a-layout>
-    <the-header/>
+    <the-header />
     <RouterView></RouterView>
-    <the-footer/>
+    <the-footer />
   </a-layout>
 </template>
 
-
 <script lang="ts">
-import { defineComponent } from 'vue';
-import TheHeader from '@/components/the-header.vue'; // @ is an alias to /src
-import TheFooter from '@/components/the-footer.vue';
+import { defineComponent } from "vue";
+import TheHeader from "@/components/the-header.vue"; // @ is an alias to /src
+import TheFooter from "@/components/the-footer.vue";
 
 export default defineComponent({
-  name: 'app',
+  name: "app",
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
   },
 });
 </script>
-
 
 <style>
 #components-layout-demo-top-side-2 .logo {

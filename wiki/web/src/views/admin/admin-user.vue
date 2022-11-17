@@ -171,9 +171,13 @@ export default defineComponent({
     const user = ref();
     const modalVisible = ref(false);
     const modalLoading = ref(false);
+    const reg =/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,32}$/;
+
     const handleModalOk = () => {
       modalLoading.value = true;
 
+      //正则校验
+      if (reg.test(user.value.password)){
       user.value.password = hexMd5(user.value.password + KEY);
       axios.post("/user/save", user.value).then((resp) => {
         const data = resp.data;
@@ -191,7 +195,53 @@ export default defineComponent({
           modalLoading.value = false;
         }
       });
+      } else {
+        message.error("【密码】至少包含 数字和英文，长度6-32");
+        modalLoading.value = false;
+      }
+
     };
+
+
+    // -------- 重置密码 ---------
+    const resetModalVisible = ref(false);
+      const resetModalLoading = ref(false);
+      const handleResetModalOk = () => {
+        if (reg.test(user.value.password)){
+          resetModalLoading.value = true;
+
+        user.value.password = hexMd5(user.value.password + KEY);
+
+        axios.post("/user/resetPassword", user.value).then((response) => {
+          resetModalLoading.value = false;
+          const data = response.data; // data = commonResp
+          if (data.success) {
+            resetModalVisible.value = false;
+
+            // 重新加载列表
+            handleQuery({
+              page: pagination.value.current,
+              size: pagination.value.pageSize,
+            });
+          } else {
+            message.error(data.message);
+          }
+        });
+        } else {
+          message.error("【密码】至少包含 数字和英文，长度6-32");
+        }
+        
+      };
+
+      /**
+       * 重置密码
+       */
+      const resetPassword = (record: any) => {
+        resetModalVisible.value = true;
+        user.value = Tool.copy(record);
+        user.value.password = null;
+      };
+    
 
     const handleDelete = (id: number) => {
       axios.get("/user/remove", { params: { id: id } }).then((resp) => {
@@ -241,6 +291,11 @@ export default defineComponent({
       handleModalOk,
 
       handleDelete,
+
+      resetPassword,
+      handleResetModalOk,
+      resetModalLoading,
+      resetModalVisible,
     };
   },
 });

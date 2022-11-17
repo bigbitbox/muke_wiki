@@ -7,6 +7,7 @@ import com.rrzui.wiki.entity.User;
 import com.rrzui.wiki.exception.BusinessException;
 import com.rrzui.wiki.exception.BusinessExceptionCode;
 import com.rrzui.wiki.req.UserQueryReq;
+import com.rrzui.wiki.req.UserResetPasswordReq;
 import com.rrzui.wiki.req.UserSaveReq;
 import com.rrzui.wiki.resp.CommonResp;
 import com.rrzui.wiki.resp.PageResp;
@@ -78,6 +79,7 @@ public class UserController {
             //虽然前端已经禁用修改登录名，但是还是要为防止黑客恶意修改，
             // 所以进入这里面将登录名置空，数据库该字段就不回去修改
             user.setLogin_name(null);
+            user.setPassword(null);
             userService.saveOrUpdate(user);
             return resp;
         }
@@ -103,6 +105,15 @@ public class UserController {
         userService.removeById(id);
 
         CommonResp<Object> resp = new CommonResp<>();
+        return resp;
+    }
+
+    @PostMapping("/resetPassword")
+    public CommonResp resetPassword(@Valid @RequestBody UserResetPasswordReq req){
+        User user = CopyUtil.copy(req, User.class);
+        userService.updateById(user);
+
+        CommonResp resp = new CommonResp<>();
         return resp;
     }
 
