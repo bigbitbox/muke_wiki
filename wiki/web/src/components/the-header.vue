@@ -17,8 +17,11 @@
       <a-menu-item key="/about">
         <RouterLink to="/about">关于我们</RouterLink>
       </a-menu-item>
-      <a-menu-item key="/login" style="margin-left: auto">
+      <a-menu-item key="/login" style="margin-left: auto" v-if = "!user.id">
         <a @click="showLoginModal">登录</a>
+      </a-menu-item>
+      <a-menu-item key="/login" style="margin-left: auto" v-if = "user.id">
+        <span>你好：{{user.name}}</span>
       </a-menu-item>
     </a-menu>
     <a-modal
@@ -64,6 +67,10 @@
   };
 
   // 登录
+
+  const user = ref();
+  user.value = {};
+
   const login = () => {
     console.log("开始登录");
     loginModalLoading.value = true;
@@ -74,6 +81,7 @@
       if (data.success) {
         loginModalVisible.value = false;
         message.success("登录成功！");
+        user.value = data.content;
       } else {
         message.error(data.message);
       }

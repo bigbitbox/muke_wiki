@@ -14,4 +14,5 @@ public class UserLoginResp {
     private Long id;
     private String login_name;//登录名称
     private String name;//昵称
+    private String token;
 }

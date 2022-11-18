@@ -1,27 +1,33 @@
 package com.rrzui.wiki.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rrzui.wiki.entity.User;
 import com.rrzui.wiki.exception.BusinessException;
 import com.rrzui.wiki.exception.BusinessExceptionCode;
+import com.rrzui.wiki.req.UserLoginReq;
 import com.rrzui.wiki.req.UserQueryReq;
 import com.rrzui.wiki.req.UserResetPasswordReq;
 import com.rrzui.wiki.req.UserSaveReq;
 import com.rrzui.wiki.resp.CommonResp;
 import com.rrzui.wiki.resp.PageResp;
+import com.rrzui.wiki.resp.UserLoginResp;
 import com.rrzui.wiki.resp.UserQueryResp;
 import com.rrzui.wiki.service.UserService;
 import com.rrzui.wiki.utils.CopyUtil;
+import com.rrzui.wiki.utils.SnowFlake;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: 粤嵌项目
@@ -39,6 +45,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    @Autowired
+    private SnowFlake snowFlake;
 
     @GetMapping("/getUserListByPage")
     public CommonResp getUserListByPage(@Valid UserQueryReq req){
@@ -111,9 +122,45 @@ public class UserController {
     @PostMapping("/resetPassword")
     public CommonResp resetPassword(@Valid @RequestBody UserResetPasswordReq req){
         User user = CopyUtil.copy(req, User.class);
+        user.setPassword(DigestUtils.md5DigestAsHex(user.getPassword().getBytes()));
         userService.updateById(user);
 
+
         CommonResp resp = new CommonResp<>();
+        return resp;
+    }
+
+    @PostMapping("/userLogin")
+    public CommonResp userLogin(@Valid @RequestBody UserLoginReq req){
+        CommonResp resp = new CommonResp<>();
+        //根据用户名查出用户
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.eq("login_name",req.getLogin_name());
+        //根据用户名获取对象
+        User userDB = userService.getOne(wrapper);
+        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+        if (ObjectUtils.isEmpty(userDB)){
+            //用户名不存在
+            LOG.info("用户名不存在{}",req.getLogin_name());
+            throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
+        } else {
+            //传递进来的也是经过两次加密的
+            if (userDB.getPassword().equals(req.getPassword())){
+                //登录成功
+                UserLoginResp userLoginResp = CopyUtil.copy(userDB, UserLoginResp.class);
+                long token = snowFlake.nextId();
+                LOG.info("UserController.userLogin业务结束，结果：{}",token);
+                userLoginResp.setToken(token+"");
+                redisTemplate.opsForValue().set(token, JSONObject.toJSONString(userLoginResp),3600*24, TimeUnit.SECONDS);
+                resp.setContent(userLoginResp);
+            } else {
+                //密码不对
+                LOG.info("密码不对，输入密码为{}",req.getPassword(),userDB.getPassword());
+                throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
+            }
+        }
+
+
         return resp;
     }
 
