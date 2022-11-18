@@ -5,24 +5,35 @@
       <a-menu-item key="/">
         <RouterLink to="/">首页</RouterLink>
       </a-menu-item>
-      <a-menu-item key="/admin/user">
+      <a-menu-item key="/admin/user" v-if="user.id">
         <RouterLink to="/admin/user">用户管理</RouterLink>
       </a-menu-item>
-      <a-menu-item key="/admin/ebook">
+      <a-menu-item key="/admin/ebook" v-if="user.id">
         <RouterLink to="/admin/ebook">电子书管理</RouterLink>
       </a-menu-item>
-      <a-menu-item key="/admin/category">
+      <a-menu-item key="/admin/category" v-if="user.id">
         <RouterLink to="/admin/category">分类管理</RouterLink>
       </a-menu-item>
       <a-menu-item key="/about">
         <RouterLink to="/about">关于我们</RouterLink>
       </a-menu-item>
-      <a-menu-item key="/login" style="margin-left: auto" v-if = "!user.id">
+      <a-menu-item key="/login" style="margin-left: auto" v-if="!user.id">
         <a @click="showLoginModal">登录</a>
       </a-menu-item>
-      <a-menu-item key="/login" style="margin-left: auto" v-if = "user.id">
-        <span>你好：{{user.name}}</span>
+
+      <a-menu-item key="/login" style="margin-left: auto" v-if="user.id">
+        <span>你好：{{ user.name }}</span>
       </a-menu-item>
+      <a-popconfirm
+        title="确认退出登录?"
+        ok-text="是"
+        cancel-text="是"
+        @confirm="logout()"
+      >
+        <a-menu-item key="/logout" style="margin-left: 0" v-if="user.id">
+          <a>退出登录</a>
+        </a-menu-item>
+      </a-popconfirm>
     </a-menu>
     <a-modal
       title="登录"
@@ -47,47 +58,61 @@
 </template>
 
 <script lang="ts">
-  declare let hexMd5: any;
-  declare let KEY: any;
+declare let hexMd5: any;
+declare let KEY: any;
 </script>
 
 <script setup lang="ts">
-  import { ref, defineComponent } from "vue";
-  import axios from "axios";
-  import { message, Modal } from "ant-design-vue";
+import { ref, defineComponent, computed } from "vue";
+import axios from "axios";
+import { message, Modal } from "ant-design-vue";
+import store from "@/store";
 
-  const loginUser = ref({
-    loginName: "test",
-    password: "test",
+const loginUser = ref({
+  loginName: "test",
+  password: "test",
+});
+const loginModalVisible = ref(false);
+const loginModalLoading = ref(false);
+const showLoginModal = () => {
+  loginModalVisible.value = true;
+};
+
+// 登录
+
+const user = computed(() => store.state.user);
+
+const login = () => {
+  console.log("开始登录");
+  loginModalLoading.value = true;
+  loginUser.value.password = hexMd5(loginUser.value.password + KEY);
+  axios.post("/user/userLogin", loginUser.value).then((response) => {
+    loginModalLoading.value = false;
+    const data = response.data;
+    if (data.success) {
+      loginModalVisible.value = false;
+      message.success("登录成功！");
+      // user.value = data.content;
+      store.commit("setUser", data.content);
+    } else {
+      message.error(data.message);
+    }
   });
-  const loginModalVisible = ref(false);
-  const loginModalLoading = ref(false);
-  const showLoginModal = () => {
-    loginModalVisible.value = true;
-  };
+};
 
-  // 登录
-
-  const user = ref();
-  user.value = {};
-
-  const login = () => {
-    console.log("开始登录");
-    loginModalLoading.value = true;
-    loginUser.value.password = hexMd5(loginUser.value.password + KEY);
-    axios.post("/user/userLogin", loginUser.value).then((response) => {
-      loginModalLoading.value = false;
-      const data = response.data;
-      if (data.success) {
-        loginModalVisible.value = false;
-        message.success("登录成功！");
-        user.value = data.content;
-      } else {
-        message.error(data.message);
-      }
-    });
-  };
+// 退出登录
+const logout = () => {
+  console.log("退出登录开始");
+  axios.get("/user/logout/" + user.value.token).then((response) => {
+    const data = response.data;
+    if (data.success) {
+      message.success("退出登录成功！");
+      store.commit("setUser", {});
+    } else {
+      message.error(data.message);
+    }
+  });
+};
 </script>
-
 
 <style scoped></style>

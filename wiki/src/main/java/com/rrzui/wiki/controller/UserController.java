@@ -148,10 +148,10 @@ public class UserController {
             if (userDB.getPassword().equals(req.getPassword())){
                 //登录成功
                 UserLoginResp userLoginResp = CopyUtil.copy(userDB, UserLoginResp.class);
-                long token = snowFlake.nextId();
+                Long token = snowFlake.nextId();
                 LOG.info("UserController.userLogin业务结束，结果：{}",token);
                 userLoginResp.setToken(token+"");
-                redisTemplate.opsForValue().set(token, JSONObject.toJSONString(userLoginResp),3600*24, TimeUnit.SECONDS);
+                redisTemplate.opsForValue().set(token.toString(), JSONObject.toJSONString(userLoginResp),3600*24, TimeUnit.SECONDS);
                 resp.setContent(userLoginResp);
             } else {
                 //密码不对
@@ -160,8 +160,19 @@ public class UserController {
             }
         }
 
-
         return resp;
     }
+
+    @GetMapping("/logout/{token}")
+    public CommonResp logout(@PathVariable String token){
+
+        redisTemplate.delete(token);
+        LOG.info("从redis中删除token:{}",token);
+
+        CommonResp<Object> resp = new CommonResp<>();
+        return resp;
+    }
+
+
 
 }

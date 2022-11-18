@@ -282,3 +282,8 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 29 common frames omitted
 2022-11-18 11:19:01.340 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248648161038569472[0;39m testWhileIdle is true, validationQuery not set
+2022-11-18 15:07:31.159 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248705664514396160[0;39m testWhileIdle is true, validationQuery not set
+2022-11-18 15:25:59.785 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248710314441445376[0;39m testWhileIdle is true, validationQuery not set
+2022-11-18 15:39:26.705 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248713698259111936[0;39m testWhileIdle is true, validationQuery not set
+2022-11-18 15:47:56.042 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248715835206668288[0;39m testWhileIdle is true, validationQuery not set
+2022-11-18 15:54:17.772 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m248717436117979136[0;39m testWhileIdle is true, validationQuery not set
