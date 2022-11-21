@@ -115,7 +115,8 @@ public class DocController {
     @GetMapping("/findContentById/{id}")
     public CommonResp findContentById(@PathVariable int id){
         Content content = contentService.getById(id);
-
+        //每次调用这个方法证明文档被浏览，浏览数+1
+        docService.increaseViewCount(id);
         CommonResp<String> resp = new CommonResp<>();
         if (content!=null && content.getContent()!=null){
             resp.setContent(content.getContent());

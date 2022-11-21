@@ -15,4 +15,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class DocServiceImpl extends ServiceImpl<DocMapper, Doc> implements DocService {
+    @Override
+    public int increaseViewCount(int id) {
+        return this.baseMapper.increaseViewCount(id);
+    }
 }

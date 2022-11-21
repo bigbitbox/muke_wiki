@@ -4,4 +4,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.rrzui.wiki.entity.Doc;
 
 public interface DocService extends IService<Doc> {
+
+    public int increaseViewCount(int id);
 }
