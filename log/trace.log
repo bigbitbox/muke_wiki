@@ -2866,3 +2866,801 @@ java.lang.InterruptedException: sleep interrupted
 2022-11-22 14:19:05.016 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143026771529728[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
 2022-11-22 14:19:35.001 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143152541929472[0;39m 更新电子书下的文档数据开始
 2022-11-22 14:19:35.002 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143152541929472[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:20:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143278421381120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:20:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143278421381120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:20:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143404250501120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:20:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143404250501120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:21:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143530067038208[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:21:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143530067038208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:21:23.978 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:21:23.978 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:21:23.979 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-7} closed
+2022-11-22 14:21:24.133 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:21:24.133 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:21:24.260 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:21:24.260 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:21:24.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:21:24.370 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:21:24.371 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:21:24.371 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:21:24.371 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:21:24.383 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:21:24.384 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 249 ms
+2022-11-22 14:21:25.019 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:21:25.163 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:21:25.194 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:21:25.208 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:21:25.211 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:21:25.214 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.102 seconds (JVM running for 16285.534)
+2022-11-22 14:21:25.214 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:21:25.215 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:21:25.215 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:21:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143655866798080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:21:35.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250143655866798080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:21:35.009 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250143655866798080[0;39m {dataSource-8} inited
+2022-11-22 14:21:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143655866798080[0;39m 更新电子书下的文档数据结束，耗时：10毫秒
+2022-11-22 14:22:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143781695918080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:22:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143781695918080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:22:11.257 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:22:11.258 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:22:11.258 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-8} closed
+2022-11-22 14:22:11.389 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:22:11.389 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:22:11.519 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:22:11.519 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:22:11.520 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:22:11.645 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:22:11.646 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:22:11.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:22:11.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:22:11.661 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:22:11.661 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 270 ms
+2022-11-22 14:22:12.373 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:22:12.543 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:22:12.575 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:22:12.587 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:22:12.590 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:22:12.594 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.228 seconds (JVM running for 16332.914)
+2022-11-22 14:22:12.595 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:22:12.595 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:22:12.595 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:22:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250143907525038080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:22:35.007 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250143907525038080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:22:35.008 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250143907525038080[0;39m {dataSource-9} inited
+2022-11-22 14:22:35.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250143907525038080[0;39m 更新电子书下的文档数据结束，耗时：9毫秒
+2022-11-22 14:22:54.459 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:22:54.460 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:22:54.460 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-9} closed
+2022-11-22 14:22:54.588 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:22:54.588 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:22:54.723 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:22:54.723 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:22:54.725 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:22:54.838 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:22:54.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:22:54.839 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:22:54.839 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:22:54.851 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:22:54.851 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 261 ms
+2022-11-22 14:22:55.495 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:22:55.639 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:22:55.670 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:22:55.683 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:22:55.685 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:22:55.688 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.124 seconds (JVM running for 16376.009)
+2022-11-22 14:22:55.689 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:22:55.689 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:22:55.689 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:23:05.001 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144033345769472[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:23:05.006 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144033345769472[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:23:05.007 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250144033345769472[0;39m {dataSource-10} inited
+2022-11-22 14:23:05.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144033345769472[0;39m 更新电子书下的文档数据结束，耗时：10毫秒
+2022-11-22 14:23:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144159200055296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:23:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144159200055296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:24:05.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144285033369600[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:24:05.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144285033369600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:24:18.494 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:24:18.494 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:24:18.495 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-10} closed
+2022-11-22 14:24:18.626 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:24:18.627 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:24:18.779 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:24:18.779 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:24:18.781 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:24:18.902 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:24:18.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:24:18.902 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:24:18.902 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:24:18.916 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:24:18.916 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 288 ms
+2022-11-22 14:24:19.409 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'docController': Unsatisfied dependency expressed through field 'docService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.rrzui.wiki.service.DocService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-11-22 14:24:19.412 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-11-22 14:24:19.415 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-22 14:24:19.482 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-22 14:24:38.460 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:24:38.461 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:24:38.597 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:24:38.597 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:24:38.598 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:24:38.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:24:38.688 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:24:38.688 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:24:38.689 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:24:38.701 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:24:38.701 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 237 ms
+2022-11-22 14:24:39.369 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:24:39.513 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:24:39.542 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:24:39.556 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:24:39.559 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:24:39.561 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.12 seconds (JVM running for 16479.881)
+2022-11-22 14:24:39.561 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:24:39.562 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:24:39.562 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:25:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144536712581120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:25:05.018 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144536712581120[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:25:05.018 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250144536712581120[0;39m {dataSource-11} inited
+2022-11-22 14:25:05.023 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144536712581120[0;39m 更新电子书下的文档数据结束，耗时：9毫秒
+2022-11-22 14:25:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144662503952384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:25:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144662503952384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:25:49.214 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:25:49.215 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:25:49.216 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-11} closed
+2022-11-22 14:25:49.425 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:25:49.425 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:25:49.563 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:25:49.563 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:25:49.565 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:25:49.725 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:25:49.726 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:25:49.726 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:25:49.726 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:25:49.743 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:25:49.743 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 316 ms
+2022-11-22 14:25:50.440 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:25:50.584 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:25:50.619 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:25:50.633 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:25:50.635 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:25:50.638 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.234 seconds (JVM running for 16550.958)
+2022-11-22 14:25:50.639 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:25:50.639 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:25:50.639 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:26:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250144788345655296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:26:05.012 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144788345655296[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:26:05.012 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250144788345655296[0;39m {dataSource-12} inited
+2022-11-22 14:26:05.018 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250144788345655296[0;39m 更新电子书下的文档数据结束，耗时：9毫秒
+2022-11-22 14:26:10.989 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:26:10.990 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:26:10.990 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-12} closed
+2022-11-22 14:26:11.138 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:26:11.138 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:26:11.260 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:26:11.260 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:26:11.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:26:11.345 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:26:11.345 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:26:11.345 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:26:11.345 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:26:11.358 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:26:11.358 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 218 ms
+2022-11-22 14:26:11.827 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'docController': Unsatisfied dependency expressed through field 'docService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.rrzui.wiki.service.DocService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-11-22 14:26:11.828 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-11-22 14:26:11.831 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-22 14:26:11.874 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-22 14:27:28.594 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 14:27:28.596 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 14:27:28.737 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:27:28.737 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 14:27:28.738 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 14:27:28.859 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 14:27:28.859 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:27:28.859 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 14:27:28.859 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 14:27:28.871 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 14:27:28.871 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 274 ms
+2022-11-22 14:27:29.702 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 14:27:29.908 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:27:29.943 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 14:27:29.961 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 14:27:29.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 14:27:29.967 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.392 seconds (JVM running for 16650.287)
+2022-11-22 14:27:29.968 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 14:27:29.968 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 14:27:29.968 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 14:27:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145165858181120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:27:35.017 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250145165858181120[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:27:35.018 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250145165858181120[0;39m {dataSource-13} inited
+2022-11-22 14:27:35.024 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145165858181120[0;39m 更新电子书下的文档数据结束，耗时：11毫秒
+2022-11-22 14:28:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145291662135296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:28:05.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145291662135296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:28:35.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145417512226816[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:28:35.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145417512226816[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2022-11-22 14:28:44.520 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-22 14:28:44.520 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-11-22 14:28:44.526 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2022-11-22 14:28:44.527 INFO  com.rrzui.wiki.websocket.WebSocketServer          :32   [32m                  [0;39m 有新连接：token：YSD3jjGY0k，session id：3，当前连接数：1
+2022-11-22 14:28:44.559 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145457555247104[0;39m ------------- 开始 -------------
+2022-11-22 14:28:44.560 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145457555247104[0;39m 请求地址: http://localhost:8080/category/allList GET
+2022-11-22 14:28:44.560 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145457555247104[0;39m 类名方法: com.rrzui.wiki.controller.CategoryController.allList
+2022-11-22 14:28:44.560 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145457555247104[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:28:44.562 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145457555247104[0;39m 请求参数: [{"page":0,"size":0,"sort":0}]
+2022-11-22 14:28:44.575 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m250145457555247104[0;39m 返回结果: {"content":[{"id":101,"name":"Vue","parent":100,"sort":1},{"id":203,"name":"Python","parent":0,"sort":1},{"id":102,"name":"HTML","parent":100,"sort":2},{"id":204,"name":"python教程","parent":203,"sort":2},{"id":205,"name":"Typescript","parent":100,"sort":3},{"id":206,"name":"Javascrpit","parent":100,"sort":4},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202}],"success":true}
+2022-11-22 14:28:44.575 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m250145457555247104[0;39m ------------- 结束 耗时：16 ms -------------
+2022-11-22 14:28:46.719 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145466614943744[0;39m ------------- 开始 -------------
+2022-11-22 14:28:46.720 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145466614943744[0;39m 请求地址: http://localhost:8080/ebook/getEbookListByPage GET
+2022-11-22 14:28:46.720 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145466614943744[0;39m 类名方法: com.rrzui.wiki.controller.EbookController.getEbookListByPage
+2022-11-22 14:28:46.720 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145466614943744[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:28:46.720 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145466614943744[0;39m 请求参数: [{"category2_id":204,"id":0,"page":1,"size":1000}]
+2022-11-22 14:28:46.729 INFO  com.rrzui.wiki.service.EbookService               :100  [32m250145466614943744[0;39m 总行数：1
+2022-11-22 14:28:46.729 INFO  com.rrzui.wiki.service.EbookService               :101  [32m250145466614943744[0;39m 总页数：1
+2022-11-22 14:28:46.733 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m250145466614943744[0;39m 返回结果: {"content":{"list":[{"category1_id":203,"category2_id":204,"description":"零基础开始学","doc_count":1,"id":3,"name":"python 教程","view_count":8,"vote_count":1}],"total":1},"success":true}
+2022-11-22 14:28:46.733 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m250145466614943744[0;39m ------------- 结束 耗时：14 ms -------------
+2022-11-22 14:28:54.056 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145497388552192[0;39m ------------- 开始 -------------
+2022-11-22 14:28:54.056 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145497388552192[0;39m 请求地址: http://localhost:8080/doc/allList/3 GET
+2022-11-22 14:28:54.056 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145497388552192[0;39m 类名方法: com.rrzui.wiki.controller.DocController.allList
+2022-11-22 14:28:54.056 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145497388552192[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:28:54.056 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145497388552192[0;39m 请求参数: [3]
+2022-11-22 14:28:54.066 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m250145497388552192[0;39m 返回结果: {"content":[{"ebook_id":3,"id":9,"name":"python文档","parent":0,"sort":1,"view_count":8,"vote_count":1}],"success":true}
+2022-11-22 14:28:54.067 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m250145497388552192[0;39m ------------- 结束 耗时：11 ms -------------
+2022-11-22 14:28:54.102 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145497581490176[0;39m ------------- 开始 -------------
+2022-11-22 14:28:54.103 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145497581490176[0;39m 请求地址: http://localhost:8080/doc/findContentById/9 GET
+2022-11-22 14:28:54.103 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145497581490176[0;39m 类名方法: com.rrzui.wiki.controller.DocController.findContentById
+2022-11-22 14:28:54.103 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145497581490176[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:28:54.103 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145497581490176[0;39m 请求参数: [9]
+2022-11-22 14:28:54.111 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m250145497581490176[0;39m 返回结果: {"success":true}
+2022-11-22 14:28:54.111 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m250145497581490176[0;39m ------------- 结束 耗时：9 ms -------------
+2022-11-22 14:28:55.147 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145501964537856[0;39m ------------- 开始 -------------
+2022-11-22 14:28:55.148 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145501964537856[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:28:55.148 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145501964537856[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:28:55.148 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145501964537856[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:28:55.148 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145501964537856[0;39m 请求参数: [9]
+2022-11-22 14:28:55.173 INFO  com.rrzui.wiki.utils.RedisUtil                    :31   [32m250145501964537856[0;39m key不存在，放入：DOC_VOTE_9_0:0:0:0:0:0:0:1，过期 86400 秒
+2022-11-22 14:28:55.186 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145501964537856[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]被点赞了
+2022-11-22 14:28:55.186 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m250145501964537856[0;39m 返回结果: {"success":true}
+2022-11-22 14:28:55.186 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m250145501964537856[0;39m ------------- 结束 耗时：39 ms -------------
+2022-11-22 14:29:02.641 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145533396652032[0;39m ------------- 开始 -------------
+2022-11-22 14:29:02.641 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145533396652032[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:02.641 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145533396652032[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:02.641 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145533396652032[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:02.641 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145533396652032[0;39m 请求参数: [9]
+2022-11-22 14:29:02.651 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145533396652032[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:02.652 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145533396652032[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:02.652 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145533396652032[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:02.653 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145533396652032[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:03.322 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145536252973056[0;39m ------------- 开始 -------------
+2022-11-22 14:29:03.322 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145536252973056[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:03.322 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145536252973056[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:03.322 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145536252973056[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:03.323 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145536252973056[0;39m 请求参数: [9]
+2022-11-22 14:29:03.330 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145536252973056[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:03.331 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145536252973056[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:03.331 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145536252973056[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:03.331 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145536252973056[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:05.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145543299403776[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:29:05.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145543299403776[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:29:06.842 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145551016923136[0;39m ------------- 开始 -------------
+2022-11-22 14:29:06.843 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145551016923136[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:06.843 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145551016923136[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:06.843 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145551016923136[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:06.843 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145551016923136[0;39m 请求参数: [9]
+2022-11-22 14:29:06.865 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145551016923136[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:06.866 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145551016923136[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:06.866 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145551016923136[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:06.866 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145551016923136[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:10.601 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145566783311872[0;39m ------------- 开始 -------------
+2022-11-22 14:29:10.601 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145566783311872[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:10.601 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145566783311872[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:10.601 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145566783311872[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:10.601 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145566783311872[0;39m 请求参数: [9]
+2022-11-22 14:29:10.609 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145566783311872[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:10.610 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145566783311872[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:10.610 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145566783311872[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:10.611 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145566783311872[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:10.727 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145567311794176[0;39m ------------- 开始 -------------
+2022-11-22 14:29:10.727 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145567311794176[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:10.728 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145567311794176[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:10.728 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145567311794176[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:10.728 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145567311794176[0;39m 请求参数: [9]
+2022-11-22 14:29:10.735 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145567311794176[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:10.735 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145567311794176[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:10.736 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145567311794176[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:10.736 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145567311794176[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:11.718 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145571468349440[0;39m ------------- 开始 -------------
+2022-11-22 14:29:11.718 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145571468349440[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:11.719 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145571468349440[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:11.719 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145571468349440[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:11.719 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145571468349440[0;39m 请求参数: [9]
+2022-11-22 14:29:11.726 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145571468349440[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:11.726 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145571468349440[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:11.726 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145571468349440[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:11.728 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145571468349440[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:11.887 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250145572177186816[0;39m ------------- 开始 -------------
+2022-11-22 14:29:11.887 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250145572177186816[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 14:29:11.887 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250145572177186816[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 14:29:11.887 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250145572177186816[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 14:29:11.887 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250145572177186816[0;39m 请求参数: [9]
+2022-11-22 14:29:11.894 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250145572177186816[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 14:29:11.895 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250145572177186816[0;39m 业务异常：您已点赞过
+2022-11-22 14:29:11.895 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250145572177186816[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 14:29:11.896 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250145572177186816[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 14:29:35.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145669145300992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:29:35.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145669145300992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:30:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145795003781120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:30:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145795003781120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:30:35.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250145920820318208[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:30:35.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250145920820318208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:31:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146046624272384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:31:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146046624272384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:31:35.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146172461780992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:31:35.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146172461780992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:32:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146298286706688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:32:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146298286706688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:32:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146424128409600[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:32:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146424128409600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:33:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146549936558080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:33:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146549936558080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:33:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146675790843904[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:33:35.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146675790843904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:34:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146801598992384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:34:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146801598992384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:34:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250146927440695296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:34:35.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250146927440695296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:35:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147053269815296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:35:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147053269815296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:35:35.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147179090546688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:35:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147179090546688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:36:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147304928055296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:36:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147304928055296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:36:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147430757175296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:36:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147430757175296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:37:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147556603072512[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:37:05.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147556603072512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:37:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147682398638080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:37:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147682398638080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:38:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147808257118208[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:38:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147808257118208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:38:35.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250147934103015424[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:38:35.016 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250147934103015424[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:39:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148059894386688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:39:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148059894386688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:39:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148185731895296[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:39:35.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148185731895296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:40:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148311544238080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:40:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148311544238080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:40:35.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148437369163776[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:40:35.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148437369163776[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:41:05.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148563240226816[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:41:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148563240226816[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:41:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148689052569600[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:41:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148689052569600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:42:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148814864912384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:42:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148814864912384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:42:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250148940689838080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:42:35.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250148940689838080[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 14:43:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149066560901120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:43:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149066560901120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:43:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149192352272384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:43:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149192352272384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:44:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149318206558208[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:44:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149318206558208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:44:35.000 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149443993735168[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:44:35.001 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149443993735168[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:45:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149569843826688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:45:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149569843826688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:45:35.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149695672946688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:45:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149695672946688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:46:05.016 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149821548204032[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:46:05.017 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149821548204032[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:46:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250149947356352512[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:46:35.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250149947356352512[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:47:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150073185472512[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:47:05.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150073185472512[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:47:35.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150198993620992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:47:35.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150198993620992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:48:05.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150324822740992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:48:05.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150324822740992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:48:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150450681221120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:48:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150450681221120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:49:05.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150576489369600[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:49:05.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150576489369600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:49:35.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150702293323776[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:49:35.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150702293323776[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:50:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150828126638080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:50:05.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150828126638080[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 14:50:35.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250150953993506816[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:50:35.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250150953993506816[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:51:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151079826821120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:51:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151079826821120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:51:35.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151205660135424[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:51:35.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151205660135424[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:52:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151331443118080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:52:05.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151331443118080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:52:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151457272238080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:52:35.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151457272238080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:53:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151583101358080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:53:05.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151583101358080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:53:35.001 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151708922089472[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:53:35.002 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151708922089472[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:54:05.001 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151834751209472[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:54:05.002 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151834751209472[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:54:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250151960592912384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:54:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250151960592912384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:55:05.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152086430420992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:55:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152086430420992[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 14:55:35.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152212259540992[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:55:35.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152212259540992[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:56:05.015 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152338126409728[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:56:05.018 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152338126409728[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2022-11-22 14:56:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152463930363904[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:56:35.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152463930363904[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:57:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152589742706688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:57:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152589742706688[0;39m 更新电子书下的文档数据结束，耗时：3毫秒
+2022-11-22 14:57:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152715563438080[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:57:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152715563438080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:58:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152841434501120[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:58:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152841434501120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 14:58:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250152967225872384[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:58:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250152967225872384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:59:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153093080158208[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:59:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153093080158208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 14:59:35.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153218888306688[0;39m 更新电子书下的文档数据开始
+2022-11-22 14:59:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153218888306688[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:00:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153344709038080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:00:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153344709038080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:00:35.000 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153470525575168[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:00:35.001 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153470525575168[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:01:05.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153596405026816[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:01:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153596405026816[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:01:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153722200592384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:01:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153722200592384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:02:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153848029712384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:02:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153848029712384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:02:35.015 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250153973904969728[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:02:35.016 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250153973904969728[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:03:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154099713118208[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:03:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154099713118208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:03:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154225512878080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:03:35.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154225512878080[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 15:04:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154351375552512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:04:05.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154351375552512[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:04:06.359 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250154357029474304[0;39m ------------- 开始 -------------
+2022-11-22 15:04:06.360 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250154357029474304[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 15:04:06.360 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250154357029474304[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 15:04:06.360 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250154357029474304[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.360 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250154357029474304[0;39m 请求参数: [9]
+2022-11-22 15:04:06.368 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250154357029474304[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.369 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250154357029474304[0;39m 业务异常：您已点赞过
+2022-11-22 15:04:06.369 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250154357029474304[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 15:04:06.369 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250154357029474304[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 15:04:06.723 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250154358556200960[0;39m ------------- 开始 -------------
+2022-11-22 15:04:06.724 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250154358556200960[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 15:04:06.724 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250154358556200960[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 15:04:06.724 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250154358556200960[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.724 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250154358556200960[0;39m 请求参数: [9]
+2022-11-22 15:04:06.731 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250154358556200960[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.732 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250154358556200960[0;39m 业务异常：您已点赞过
+2022-11-22 15:04:06.732 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250154358556200960[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 15:04:06.732 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250154358556200960[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 15:04:06.848 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m250154359080488960[0;39m ------------- 开始 -------------
+2022-11-22 15:04:06.848 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m250154359080488960[0;39m 请求地址: http://localhost:8080/doc/vote/9 GET
+2022-11-22 15:04:06.848 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m250154359080488960[0;39m 类名方法: com.rrzui.wiki.controller.DocController.vote
+2022-11-22 15:04:06.849 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m250154359080488960[0;39m 远程地址: 0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.849 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m250154359080488960[0;39m 请求参数: [9]
+2022-11-22 15:04:06.857 INFO  com.rrzui.wiki.utils.RedisUtil                    :28   [32m250154359080488960[0;39m key已存在：DOC_VOTE_9_0:0:0:0:0:0:0:1
+2022-11-22 15:04:06.857 WARN  c.rrzui.wiki.controller.ControllerExceptionHandler:46   [32m250154359080488960[0;39m 业务异常：您已点赞过
+2022-11-22 15:04:06.858 INFO  com.rrzui.wiki.websocket.WebSocketServer          :71   [32m250154359080488960[0;39m 推送消息：YSD3jjGY0k，内容：[python文档]这篇文章你已经点过赞了
+2022-11-22 15:04:06.858 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m250154359080488960[0;39m Resolved [com.rrzui.wiki.exception.BusinessException: 您已点赞过]
+2022-11-22 15:04:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154477204672512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:04:35.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154477204672512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:05:05.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154603021209600[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:05:05.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154603021209600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:05:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154728871301120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:05:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154728871301120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:06:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154854658478080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:06:05.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154854658478080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:06:35.015 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250154980537929728[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:06:35.017 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250154980537929728[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:07:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155106325106688[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:07:05.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155106325106688[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:07:35.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155232175198208[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:07:35.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155232175198208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:08:05.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155358004318208[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:08:05.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155358004318208[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:08:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155483808272384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:08:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155483808272384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:09:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155609649975296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:09:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155609649975296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:09:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155735483289600[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:09:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155735483289600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:10:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155861295632384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:10:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155861295632384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:10:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250155987145723904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:10:35.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250155987145723904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:11:02.853 INFO  com.rrzui.wiki.websocket.WebSocketServer          :41   [32m                  [0;39m 连接关闭，token：YSD3jjGY0k，session id：3！当前连接数：0
+2022-11-22 15:11:02.862 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:11:02.862 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:11:02.863 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-13} closed
+2022-11-22 15:11:03.190 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:11:03.190 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:11:03.317 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:11:03.317 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:11:03.319 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:11:03.453 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:11:03.453 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:11:03.453 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:11:03.454 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:11:03.467 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:11:03.467 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 275 ms
+2022-11-22 15:11:04.138 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:11:04.281 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:11:04.313 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:11:04.327 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:11:04.329 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:11:04.333 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.162 seconds (JVM running for 19264.652)
+2022-11-22 15:11:04.333 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:11:04.333 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:11:04.333 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:11:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156112949678080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:11:05.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156112949678080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:11:05.009 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250156112949678080[0;39m {dataSource-14} inited
+2022-11-22 15:11:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156112949678080[0;39m 更新电子书下的文档数据结束，耗时：11毫秒
+2022-11-22 15:11:35.015 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156238829129728[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:11:35.016 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156238829129728[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:12:03.659 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:12:03.659 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:03.660 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-14} closed
+2022-11-22 15:12:03.805 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:12:03.806 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:12:03.931 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:12:03.931 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:12:03.933 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:12:04.040 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:12:04.041 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:04.041 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:12:04.041 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:12:04.053 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:12:04.053 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 246 ms
+2022-11-22 15:12:04.695 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:04.847 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:12:04.881 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:12:04.906 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:04.908 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:12:04.911 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.127 seconds (JVM running for 19325.231)
+2022-11-22 15:12:04.912 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:12:04.913 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:12:04.913 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:12:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156364607918080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:12:05.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156364607918080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:12:05.009 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250156364607918080[0;39m {dataSource-15} inited
+2022-11-22 15:12:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156364607918080[0;39m 更新电子书下的文档数据结束，耗时：11毫秒
+2022-11-22 15:12:08.730 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:12:08.730 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:08.731 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-15} closed
+2022-11-22 15:12:08.851 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:12:08.851 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:12:08.987 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:12:08.987 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:12:08.989 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:12:09.069 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:12:09.070 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:09.070 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:12:09.070 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:12:09.083 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:12:09.083 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 230 ms
+2022-11-22 15:12:09.725 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:09.865 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:12:09.895 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:12:09.915 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:09.917 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:12:09.920 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.091 seconds (JVM running for 19330.24)
+2022-11-22 15:12:09.921 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:12:09.921 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:12:09.921 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:12:15.813 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:12:15.813 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:15.951 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:12:15.952 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:12:16.088 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:12:16.089 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:12:16.090 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:12:16.177 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:12:16.177 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:16.177 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:12:16.177 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:12:16.191 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:12:16.191 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 236 ms
+2022-11-22 15:12:16.912 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:17.061 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:12:17.095 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:12:17.116 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:17.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:12:17.121 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.191 seconds (JVM running for 19337.441)
+2022-11-22 15:12:17.121 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:12:17.121 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:12:17.121 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:12:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156490462203904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:12:35.014 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156490462203904[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:12:35.015 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250156490462203904[0;39m {dataSource-16} inited
+2022-11-22 15:12:35.019 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156490462203904[0;39m 更新电子书下的文档数据结束，耗时：9毫秒
+2022-11-22 15:12:43.570 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:12:43.571 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:43.571 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-16} closed
+2022-11-22 15:12:43.717 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:12:43.718 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:12:43.849 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:12:43.849 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:12:43.851 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:12:43.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:12:43.964 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:43.964 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:12:43.964 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:12:43.977 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:12:43.978 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 258 ms
+2022-11-22 15:12:44.662 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:44.821 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:12:44.853 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:12:44.877 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:44.879 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:12:44.882 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.198 seconds (JVM running for 19365.202)
+2022-11-22 15:12:44.882 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:12:44.883 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:12:44.883 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:12:50.765 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-22 15:12:50.765 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:50.902 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 25788 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-22 15:12:50.903 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-22 15:12:51.042 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 15:12:51.043 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-22 15:12:51.046 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2022-11-22 15:12:51.138 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-22 15:12:51.138 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:51.139 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-22 15:12:51.139 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-22 15:12:51.153 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-22 15:12:51.153 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 248 ms
+2022-11-22 15:12:51.893 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-22 15:12:52.057 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-22 15:12:52.091 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-22 15:12:52.109 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-22 15:12:52.111 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-22 15:12:52.114 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 1.231 seconds (JVM running for 19372.435)
+2022-11-22 15:12:52.115 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-11-22 15:12:52.115 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-22 15:12:52.115 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-22 15:13:05.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156616278740992[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:13:05.011 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156616278740992[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:13:05.011 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m250156616278740992[0;39m {dataSource-17} inited
+2022-11-22 15:13:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156616278740992[0;39m 更新电子书下的文档数据结束，耗时：8毫秒
+2022-11-22 15:13:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156742128832512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:13:35.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156742128832512[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:14:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156867941175296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:14:05.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156867941175296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:14:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250156993778683904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:14:35.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250156993778683904[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:15:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157119582638080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:15:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157119582638080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:15:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157245411758080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:15:35.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157245411758080[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:16:05.016 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157371295404032[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:16:05.017 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157371295404032[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:16:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157497111941120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:16:35.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157497111941120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:17:05.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157622945255424[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:17:05.016 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157622945255424[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:17:35.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157748724043776[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:17:35.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157748724043776[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:18:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250157874599301120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:18:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250157874599301120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:18:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158000390672384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:18:35.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158000390672384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:19:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158126257541120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:19:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158126257541120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:19:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158252086661120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:19:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158252086661120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:20:05.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158377899003904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:20:05.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158377899003904[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:20:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158503723929600[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:20:35.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158503723929600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:21:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158629532078080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:21:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158629532078080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:21:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158755377975296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:21:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158755377975296[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:22:05.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250158881186123776[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:22:05.004 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250158881186123776[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:22:35.010 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159007048798208[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:22:35.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159007048798208[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 15:23:05.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159132886306816[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:23:05.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159132886306816[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:23:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159258698649600[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:23:35.009 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159258698649600[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:24:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159384540352512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:24:05.012 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159384540352512[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:24:35.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159510348500992[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:24:35.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159510348500992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:25:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159636169232384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:25:05.006 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159636169232384[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:25:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159762019323904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:25:35.011 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159762019323904[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:26:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250159887840055296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:26:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250159887840055296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:26:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160013673369600[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:26:35.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160013673369600[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:27:05.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160139506683904[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:27:05.010 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160139506683904[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:27:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160265352581120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:27:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160265352581120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:28:05.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160391152340992[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:28:05.007 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160391152340992[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:28:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160516973072384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:28:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160516973072384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:29:05.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160642802192384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:29:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160642802192384[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:29:35.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160768664866816[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:29:35.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160768664866816[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:30:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250160894456238080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:30:05.003 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250160894456238080[0;39m 更新电子书下的文档数据结束，耗时：0毫秒
+2022-11-22 15:30:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161020289552384[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:30:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161020289552384[0;39m 更新电子书下的文档数据结束，耗时：10毫秒
+2022-11-22 15:31:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161146114478080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:31:05.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161146114478080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:31:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161271960375296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:31:35.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161271960375296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:32:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161397806272512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:32:05.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161397806272512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:32:35.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161523618615296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:32:35.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161523618615296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:33:05.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161649477095424[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:33:05.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161649477095424[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:33:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161775302021120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:33:35.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161775302021120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:34:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250161901105975296[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:34:05.008 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250161901105975296[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:34:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250162026918318080[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:34:35.005 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250162026918318080[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:35:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250162152780992512[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:35:05.013 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250162152780992512[0;39m 更新电子书下的文档数据结束，耗时：2毫秒
+2022-11-22 15:35:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250162278618501120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:35:35.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250162278618501120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:36:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250162404447621120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:36:05.014 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250162404447621120[0;39m 更新电子书下的文档数据结束，耗时：1毫秒
+2022-11-22 15:36:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m250162530276741120[0;39m 更新电子书下的文档数据开始
+2022-11-22 15:36:35.015 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m250162530276741120[0;39m 更新电子书下的文档数据结束，耗时：2毫秒

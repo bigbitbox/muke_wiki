@@ -232,3 +232,49 @@ java.lang.InterruptedException: sleep interrupted
 2022-11-22 10:00:05.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250077847241232384[0;39m testWhileIdle is true, validationQuery not set
 2022-11-22 10:09:35.012 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250080238007095296[0;39m testWhileIdle is true, validationQuery not set
 2022-11-22 14:18:35.015 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250142900921438208[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:21:35.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250143655866798080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:22:35.007 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250143907525038080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:23:05.006 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144033345769472[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:24:19.482 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-22 14:25:05.018 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144536712581120[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:26:05.012 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250144788345655296[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 14:26:11.874 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-22 14:27:35.017 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250145165858181120[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:11:05.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156112949678080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:12:05.008 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156364607918080[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:12:35.014 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156490462203904[0;39m testWhileIdle is true, validationQuery not set
+2022-11-22 15:13:05.011 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m250156616278740992[0;39m testWhileIdle is true, validationQuery not set

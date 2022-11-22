@@ -65,7 +65,9 @@ import { ref, computed, defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
 declare let hexMd5: any;
 declare let KEY: any;
-
+export default defineComponent({
+  name: "HomeView",
+});
 </script>
 
 <script setup lang="ts">
