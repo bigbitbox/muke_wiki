@@ -1,0 +1,144 @@
+2022-11-21 09:20:47.660 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m249705571496890368[0;39m testWhileIdle is true, validationQuery not set
+2022-11-21 10:26:57.364 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field baseMapper in com.baomidou.mybatisplus.extension.service.impl.ServiceImpl required a single bean, but 4 were found:
+	- categoryMapper: defined in file [C:\Users\r\Desktop\粤嵌项目\wiki\target\classes\com\rrzui\wiki\mapper\CategoryMapper.class]
+	- contentMapper: defined in file [C:\Users\r\Desktop\粤嵌项目\wiki\target\classes\com\rrzui\wiki\mapper\ContentMapper.class]
+	- ebookMapper: defined in file [C:\Users\r\Desktop\粤嵌项目\wiki\target\classes\com\rrzui\wiki\mapper\EbookMapper.class]
+	- userMapper: defined in file [C:\Users\r\Desktop\粤嵌项目\wiki\target\classes\com\rrzui\wiki\mapper\UserMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2022-11-21 10:29:39.334 ERROR org.springframework.boot.SpringApplication        :837  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.rrzui.wiki.config.WikiApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/rrzui/wiki/service/DocService.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.rrzui.wiki.config.WikiApplication.main(WikiApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [com/rrzui/wiki/service/DocService.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getInterfaces(ConfigurationClassParser.java:1024)
+	at org.springframework.context.annotation.ConfigurationClassParser.processInterfaces(ConfigurationClassParser.java:386)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:332)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:304)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	... 17 common frames omitted
+2022-11-21 10:29:41.657 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-21 10:30:13.542 ERROR org.springframework.boot.SpringApplication        :837  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docController' defined in file [C:\Users\r\Desktop\粤嵌项目\wiki\target\classes\com\rrzui\wiki\controller\DocController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.rrzui.wiki.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c4c65f0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.rrzui.wiki.config.WikiApplication.main(WikiApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.rrzui.wiki.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c4c65f0]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:568)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/rrzui/wiki/service/DocService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2611)
+	at java.lang.Class.getDeclaredFields(Class.java:1944)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rrzui.wiki.service.DocService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 29 common frames omitted
+2022-11-21 10:32:16.219 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m249723559432294400[0;39m testWhileIdle is true, validationQuery not set
+2022-11-21 10:35:30.501 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field docService in com.rrzui.wiki.controller.DocController required a bean of type 'com.rrzui.wiki.service.DocService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.rrzui.wiki.service.DocService' in your configuration.
+
+2022-11-21 10:38:56.445 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m249725238026309632[0;39m testWhileIdle is true, validationQuery not set

@@ -124,5 +124,13 @@ public class DocController {
         return resp;
     }
 
+    @GetMapping("/vote/{id}")
+    public CommonResp vote(@PathVariable int id){
+        docService.increaseVoteCount(id);
+        CommonResp<String> resp = new CommonResp<>();
+
+        return resp;
+    }
+
 
 }

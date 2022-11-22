@@ -22,7 +22,28 @@
           </a-tree>
         </a-col>
         <a-col :span="18" class="wangeditor">
+          <div>
+            <h2>{{ doc.name }}</h2>
+            <div>
+              <span>阅读数：{{ doc.view_count }}</span> &nbsp; &nbsp;
+              <span>点赞数：{{ doc.vote_count }}</span>
+            </div>
+            <a-divider style="height: 2px; background-color: #9999cc" />
+          </div>
           <div :innerHTML="html"></div>
+          <div class="vote-div">
+            <a-button
+              type="primary"
+              shape="round"
+              :size="'large'"
+              @click="vote"
+              style="height: 55px"
+            >
+              <template #icon
+                ><LikeOutlined /> &nbsp;点赞：{{ doc.vote_count }}
+              </template>
+            </a-button>
+          </div>
         </a-col>
       </a-row>
     </a-layout-content>
@@ -61,6 +82,10 @@ export default defineComponent({
     /**
      * 数据查询
      **/
+
+    const doc = ref();
+    doc.value = {};
+
     const handleQuery = () => {
       axios.get("/doc/allList/" + route.query.ebookId).then((response) => {
         const data = response.data;
@@ -73,8 +98,21 @@ export default defineComponent({
           if (Tool.isNotEmpty(level1)) {
             defaultSelectedKeys.value = [level1.value[0].id];
             handleQueryContent(defaultSelectedKeys.value);
-          }
 
+            doc.value = level1.value[0];
+          }
+        } else {
+          message.error(data.message);
+        }
+      });
+    };
+
+    // 点赞
+    const vote = () => {
+      axios.get("/doc/vote/" + doc.value.id).then((response) => {
+        const data = response.data;
+        if (data.success) {
+          doc.value.vote_count++;
         } else {
           message.error(data.message);
         }
@@ -100,6 +138,17 @@ export default defineComponent({
     const onSelect = (selectedKeys: any, info: any) => {
       console.log("selected", selectedKeys, info);
       if (Tool.isNotEmpty(selectedKeys)) {
+        // 选中某一节点是，加载该节点文档的信息（阅读量）
+
+        // console.log(info.selectedNodes[0]);
+
+        doc.value = info.selectedNodes[0];
+        // doc.value = info.node.dataRef;
+        console.log("selectedKeys", selectedKeys);
+        console.log("info", info);
+
+        console.log("doc", doc);
+
         // 加载内容
         handleQueryContent(selectedKeys[0]);
       }
@@ -113,8 +162,10 @@ export default defineComponent({
       level1,
       onSelect,
       html,
+      doc,
+      vote,
 
-      defaultSelectedKeys
+      defaultSelectedKeys,
     };
   },
 });
@@ -175,5 +226,10 @@ ol {
   margin: 20px 10px !important;
   font-size: 16px !important;
   font-weight: 600;
+}
+
+.vote-div {
+  padding: 15px;
+  text-align: center;
 }
 </style>

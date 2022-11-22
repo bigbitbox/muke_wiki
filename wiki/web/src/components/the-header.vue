@@ -58,15 +58,17 @@
 </template>
 
 <script lang="ts">
+import store from '@/store';
+import { message } from 'ant-design-vue';
+import axios from 'axios';
+import { ref, computed, defineComponent } from 'vue';
+import { RouterLink } from 'vue-router';
 declare let hexMd5: any;
 declare let KEY: any;
+
 </script>
 
 <script setup lang="ts">
-import { ref, defineComponent, computed } from "vue";
-import axios from "axios";
-import { message, Modal } from "ant-design-vue";
-import store from "@/store";
 
 const loginUser = ref({
   loginName: "test",
