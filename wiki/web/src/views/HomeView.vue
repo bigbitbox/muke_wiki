@@ -26,7 +26,7 @@
         }"
       >
         <div class="welcome" v-show="isShowWelcom">
-          <h1>欢迎使用wiki知识库</h1>
+          <the-welcome></the-welcome>
         </div>
 
         <a-list
@@ -76,9 +76,13 @@ import axios from "axios";
 import { message } from "ant-design-vue";
 import { Tool } from "@/utils/tool";
 import { LikeOutlined } from "@ant-design/icons-vue";
+import TheWelcome from "@/components/the-welcome.vue";
 
 export default defineComponent({
   name: "HomeView",
+  components:{
+    TheWelcome
+  },
   setup() {
     console.log("setup");
 

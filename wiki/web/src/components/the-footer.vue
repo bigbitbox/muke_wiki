@@ -1,5 +1,5 @@
 <template>
-  <a-layout-footer style="text-align: center">
+  <a-layout-footer style="text-align: center" id="footer">
     wiki电子书网站<span v-show="user.id">,欢迎：{{ user.name }}</span>
   </a-layout-footer>
 </template>
@@ -63,4 +63,10 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+#footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+</style>
