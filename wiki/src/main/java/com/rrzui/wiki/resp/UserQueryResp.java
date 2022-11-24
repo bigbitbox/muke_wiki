@@ -15,4 +15,5 @@ public class UserQueryResp {
     private String login_name;//登录名称
     private String name;//昵称
     private String password;//密码
+    private String  status;//权限
 }

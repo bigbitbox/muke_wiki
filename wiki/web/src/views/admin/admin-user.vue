@@ -121,6 +121,10 @@ export default defineComponent({
         dataIndex: "password",
       },
       {
+        title: "权限",
+        dataIndex: "status",
+      },
+      {
         title: "Action",
         key: "action",
         slots: { customRender: "action" },
@@ -147,6 +151,9 @@ export default defineComponent({
           const data = resp.data;
           if (data.success) {
             users.value = data.content.list;
+            if (user.value.status == 1){
+              user.value.status = "管理员"
+            }
 
             //重置分页按钮
             pagination.value.current = params.page;

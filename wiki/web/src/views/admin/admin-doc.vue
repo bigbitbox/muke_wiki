@@ -78,7 +78,6 @@
               </a-tree-select>
             </a-form-item>
             <a-form-item label="父文档编号">
-              <a-input v-model:value="doc.parent" />
               <a-select v-model:value="doc.parent" ref="select">
                 <a-select-option value="0"> 创建父文档 </a-select-option>
                 <a-select-option

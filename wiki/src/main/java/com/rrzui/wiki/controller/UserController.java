@@ -68,6 +68,7 @@ public class UserController {
 
         List<UserQueryResp> UserResps = CopyUtil.copyList(list, UserQueryResp.class);
 
+
         PageResp<UserQueryResp> respPage = new PageResp<>();
         respPage.setTotal(page.getTotal());
         respPage.setList(UserResps);

@@ -31,7 +31,7 @@ public class EbookSnapshotServiceImpl extends ServiceImpl<EbookSnapshotMapper, E
 
     @Override
     public List<StatisticResp> get30Statistic() {
-        List<StatisticResp> statistic = this.baseMapper.getStatistic();
+        List<StatisticResp> statistic = this.baseMapper.get30Statistic();
         return statistic;
     }
 
