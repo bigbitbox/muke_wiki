@@ -1,0 +1,140 @@
+2022-11-25 00:30:38.184 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-11-25 00:30:38.203 INFO  com.rrzui.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication on Rui with PID 33196 (C:\Users\r\Desktop\粤嵌项目\wiki\target\classes started by r in C:\Users\r\Desktop\粤嵌项目)
+2022-11-25 00:30:38.204 INFO  com.rrzui.wiki.config.WikiApplication             :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-11-25 00:30:38.251 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-25 00:30:38.252 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-25 00:30:38.836 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-25 00:30:38.838 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-25 00:30:38.858 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-11-25 00:30:39.398 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-11-25 00:30:39.404 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-25 00:30:39.404 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-11-25 00:30:39.405 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-25 00:30:39.466 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-11-25 00:30:39.466 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1214 ms
+2022-11-25 00:30:41.215 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-25 00:30:41.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-11-25 00:30:41.518 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-11-25 00:30:41.543 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-11-25 00:30:41.560 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-25 00:30:41.569 INFO  com.rrzui.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 3.713 seconds (JVM running for 4.686)
+2022-11-25 00:30:41.571 INFO  com.rrzui.wiki.config.WikiApplication             :28   [32m                  [0;39m 启动成功！！
+2022-11-25 00:30:41.571 INFO  com.rrzui.wiki.config.WikiApplication             :29   [32m                  [0;39m 地址：	http://127.0.0.1:8080
+2022-11-25 00:31:00.006 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251021796336340992[0;39m 生成今日电子书快照开始
+2022-11-25 00:31:00.031 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m251021796336340992[0;39m testWhileIdle is true, validationQuery not set
+2022-11-25 00:31:00.039 INFO  com.alibaba.druid.pool.DruidDataSource            :655  [32m251021796336340992[0;39m {dataSource-1} inited
+2022-11-25 00:31:00.515 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251021796336340992[0;39m 生成今日电子书快照结束，耗时：509毫秒
+2022-11-25 00:31:05.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251021817291083776[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:31:05.037 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251021817291083776[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2022-11-25 00:31:19.321 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-25 00:31:19.322 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-11-25 00:31:19.328 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2022-11-25 00:31:19.346 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m251021877449986048[0;39m ------------- 开始 -------------
+2022-11-25 00:31:19.347 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m251021877449986048[0;39m 请求地址: http://localhost:8080/ebook-snapshot/getStatistic GET
+2022-11-25 00:31:19.348 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m251021877449986048[0;39m 类名方法: com.rrzui.wiki.controller.EbookSnapshotController.getStatistic
+2022-11-25 00:31:19.348 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m251021877449986048[0;39m 远程地址: 127.0.0.1
+2022-11-25 00:31:19.379 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m251021877449986048[0;39m 请求参数: []
+2022-11-25 00:31:19.425 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m251021877449986048[0;39m 返回结果: {"content":[{"date":1669132800000,"view_count":288,"view_increase":1,"vote_count":17,"vote_increase":1},{"date":1669219200000,"view_count":302,"view_increase":14,"vote_count":18,"vote_increase":1}],"success":true}
+2022-11-25 00:31:19.425 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m251021877449986048[0;39m ------------- 结束 耗时：80 ms -------------
+2022-11-25 00:31:22.900 INFO  com.rrzui.wiki.aspect.LogAspect                   :53   [32m251021892360736768[0;39m ------------- 开始 -------------
+2022-11-25 00:31:22.901 INFO  com.rrzui.wiki.aspect.LogAspect                   :54   [32m251021892360736768[0;39m 请求地址: http://localhost:8080/ebook-snapshot/getStatistic GET
+2022-11-25 00:31:22.901 INFO  com.rrzui.wiki.aspect.LogAspect                   :55   [32m251021892360736768[0;39m 类名方法: com.rrzui.wiki.controller.EbookSnapshotController.getStatistic
+2022-11-25 00:31:22.901 INFO  com.rrzui.wiki.aspect.LogAspect                   :56   [32m251021892360736768[0;39m 远程地址: 127.0.0.1
+2022-11-25 00:31:22.901 INFO  com.rrzui.wiki.aspect.LogAspect                   :78   [32m251021892360736768[0;39m 请求参数: []
+2022-11-25 00:31:22.919 INFO  com.rrzui.wiki.aspect.LogAspect                   :90   [32m251021892360736768[0;39m 返回结果: {"content":[{"date":1669132800000,"view_count":288,"view_increase":1,"vote_count":17,"vote_increase":1},{"date":1669219200000,"view_count":302,"view_increase":14,"vote_count":18,"vote_increase":1}],"success":true}
+2022-11-25 00:31:22.920 INFO  com.rrzui.wiki.aspect.LogAspect                   :91   [32m251021892360736768[0;39m ------------- 结束 耗时：20 ms -------------
+2022-11-25 00:31:35.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251021943170535424[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:31:35.050 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251021943170535424[0;39m 更新电子书下的文档数据结束，耗时：36毫秒
+2022-11-25 00:32:00.001 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251022047973609472[0;39m 生成今日电子书快照开始
+2022-11-25 00:32:00.028 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251022047973609472[0;39m 生成今日电子书快照结束，耗时：27毫秒
+2022-11-25 00:32:05.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022068999655424[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:32:05.054 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022068999655424[0;39m 更新电子书下的文档数据结束，耗时：39毫秒
+2022-11-25 00:32:35.000 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022194770055168[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:32:35.056 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022194770055168[0;39m 更新电子书下的文档数据结束，耗时：55毫秒
+2022-11-25 00:33:00.009 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251022299665403904[0;39m 生成今日电子书快照开始
+2022-11-25 00:33:00.042 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251022299665403904[0;39m 生成今日电子书快照结束，耗时：33毫秒
+2022-11-25 00:33:05.007 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022320628535296[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:33:05.045 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022320628535296[0;39m 更新电子书下的文档数据结束，耗时：38毫秒
+2022-11-25 00:33:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022446474432512[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:33:35.041 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022446474432512[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2022-11-25 00:34:00.008 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251022551319449600[0;39m 生成今日电子书快照开始
+2022-11-25 00:34:00.047 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251022551319449600[0;39m 生成今日电子书快照结束，耗时：39毫秒
+2022-11-25 00:34:05.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022572290969600[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:34:05.041 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022572290969600[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2022-11-25 00:34:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022698099118080[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:34:35.032 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022698099118080[0;39m 更新电子书下的文档数据结束，耗时：29毫秒
+2022-11-25 00:35:00.009 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251022802981883904[0;39m 生成今日电子书快照开始
+2022-11-25 00:35:00.294 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251022802981883904[0;39m 生成今日电子书快照结束，耗时：285毫秒
+2022-11-25 00:35:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022823936626688[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:35:05.056 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022823936626688[0;39m 更新电子书下的文档数据结束，耗时：51毫秒
+2022-11-25 00:35:35.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251022949799301120[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:35:35.042 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251022949799301120[0;39m 更新电子书下的文档数据结束，耗时：29毫秒
+2022-11-25 00:36:00.004 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251023054619152384[0;39m 生成今日电子书快照开始
+2022-11-25 00:36:00.041 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251023054619152384[0;39m 生成今日电子书快照结束，耗时：37毫秒
+2022-11-25 00:36:05.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023075607449600[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:36:05.054 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023075607449600[0;39m 更新电子书下的文档数据结束，耗时：46毫秒
+2022-11-25 00:36:35.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023201415598080[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:36:35.039 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023201415598080[0;39m 更新电子书下的文档数据结束，耗时：36毫秒
+2022-11-25 00:37:00.004 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251023306277392384[0;39m 生成今日电子书快照开始
+2022-11-25 00:37:00.042 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251023306277392384[0;39m 生成今日电子书快照结束，耗时：38毫秒
+2022-11-25 00:37:05.013 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023327286661120[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:37:05.044 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023327286661120[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2022-11-25 00:37:35.004 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023453078032384[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:37:35.038 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023453078032384[0;39m 更新电子书下的文档数据结束，耗时：34毫秒
+2022-11-25 00:38:00.005 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251023557939826688[0;39m 生成今日电子书快照开始
+2022-11-25 00:38:00.037 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251023557939826688[0;39m 生成今日电子书快照结束，耗时：32毫秒
+2022-11-25 00:38:05.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023578911346688[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:38:05.045 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023578911346688[0;39m 更新电子书下的文档数据结束，耗时：40毫秒
+2022-11-25 00:38:35.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023704727883776[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:38:35.033 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023704727883776[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2022-11-25 00:39:00.010 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251023809619038208[0;39m 生成今日电子书快照开始
+2022-11-25 00:39:00.045 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251023809619038208[0;39m 生成今日电子书快照结束，耗时：35毫秒
+2022-11-25 00:39:05.012 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023830598946816[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:39:05.051 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023830598946816[0;39m 更新电子书下的文档数据结束，耗时：39毫秒
+2022-11-25 00:39:35.005 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251023956398706688[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:39:35.046 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251023956398706688[0;39m 更新电子书下的文档数据结束，耗时：41毫秒
+2022-11-25 00:40:00.014 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251024061294055424[0;39m 生成今日电子书快照开始
+2022-11-25 00:40:00.075 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251024061294055424[0;39m 生成今日电子书快照结束，耗时：61毫秒
+2022-11-25 00:40:05.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024082215243776[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:40:05.028 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024082215243776[0;39m 更新电子书下的文档数据结束，耗时：26毫秒
+2022-11-25 00:40:35.001 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024208040169472[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:40:35.030 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024208040169472[0;39m 更新电子书下的文档数据结束，耗时：29毫秒
+2022-11-25 00:41:00.010 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251024312935518208[0;39m 生成今日电子书快照开始
+2022-11-25 00:41:00.049 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251024312935518208[0;39m 生成今日电子书快照结束，耗时：39毫秒
+2022-11-25 00:41:05.015 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024333928009728[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:41:05.046 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024333928009728[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2022-11-25 00:41:35.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024459752935424[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:41:35.045 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024459752935424[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2022-11-25 00:42:00.011 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251024564597952512[0;39m 生成今日电子书快照开始
+2022-11-25 00:42:00.042 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251024564597952512[0;39m 生成今日电子书快照结束，耗时：31毫秒
+2022-11-25 00:42:05.003 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024585535918080[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:42:05.038 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024585535918080[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2022-11-25 00:42:35.009 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024711390203904[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:42:35.039 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024711390203904[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2022-11-25 00:43:00.014 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251024816268775424[0;39m 生成今日电子书快照开始
+2022-11-25 00:43:00.052 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251024816268775424[0;39m 生成今日电子书快照结束，耗时：38毫秒
+2022-11-25 00:43:05.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024837240295424[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:43:05.045 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024837240295424[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2022-11-25 00:43:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251024963056832512[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:43:35.038 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251024963056832512[0;39m 更新电子书下的文档数据结束，耗时：27毫秒
+2022-11-25 00:44:00.008 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251025067901849600[0;39m 生成今日电子书快照开始
+2022-11-25 00:44:01.181 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251025067901849600[0;39m 生成今日电子书快照结束，耗时：1173毫秒
+2022-11-25 00:44:05.002 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025088848203776[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:44:05.028 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025088848203776[0;39m 更新电子书下的文档数据结束，耗时：26毫秒
+2022-11-25 00:44:35.014 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025214727655424[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:44:35.047 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025214727655424[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2022-11-25 00:45:00.002 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251025319534923776[0;39m 生成今日电子书快照开始
+2022-11-25 00:45:00.041 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251025319534923776[0;39m 生成今日电子书快照结束，耗时：39毫秒
+2022-11-25 00:45:05.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025340544192512[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:45:05.042 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025340544192512[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2022-11-25 00:45:35.008 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025466360729600[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:45:35.043 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025466360729600[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2022-11-25 00:46:00.011 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :33   [32m251025571230912512[0;39m 生成今日电子书快照开始
+2022-11-25 00:46:00.054 INFO  com.rrzui.wiki.job.EbookSnapshotJob               :36   [32m251025571230912512[0;39m 生成今日电子书快照结束，耗时：43毫秒
+2022-11-25 00:46:05.006 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025592181460992[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:46:05.037 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025592181460992[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2022-11-25 00:46:35.011 INFO  com.rrzui.wiki.job.DocJob                         :31   [32m251025718031552512[0;39m 更新电子书下的文档数据开始
+2022-11-25 00:46:35.051 INFO  com.rrzui.wiki.job.DocJob                         :34   [32m251025718031552512[0;39m 更新电子书下的文档数据结束，耗时：40毫秒
+2022-11-25 00:46:49.558 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-11-25 00:46:49.559 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-25 00:46:49.562 INFO  com.alibaba.druid.pool.DruidDataSource            :1370 [32m                  [0;39m {dataSource-1} closed

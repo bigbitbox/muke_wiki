@@ -1,0 +1,1 @@
+2022-11-25 00:31:00.031 ERROR com.alibaba.druid.pool.DruidDataSource            :795  [32m251021796336340992[0;39m testWhileIdle is true, validationQuery not set
